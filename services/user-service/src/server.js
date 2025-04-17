@@ -58,7 +58,7 @@ const rateLimiter = new RateLimiterRedis({
 app.use((req,res, next)=>{
     rateLimiter.consume(req.ip)
     .then( ()=> next())
-    .cateh(()=>{
+    .catch(()=>{
     logger.warn(`rate limit exceed for IP : ${req.ip}`)
 
      res.status(429).json({
@@ -91,11 +91,11 @@ const sensativeEndpointsRateLimiter =  rateLimit({
 
 
 
-// Applying sensativeratelimiter to routes
-app.use('/api/v1/auth/register',sensativeEndpointsRateLimiter);  // Replace with your actual routes
+// Applying sensative_ratelimiter to routes
+// app.use('/api/v1/auth/register',sensativeEndpointsRateLimiter);
 
 // ________________________( API endpoints )___________________________
-app.use('api/v1/auth', route)
+app.use('/api/v1/auth', route)
  
 
 // Set the port
