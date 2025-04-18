@@ -136,3 +136,13 @@
 {"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-17T11:30:12.568Z"}
 {"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-17T11:30:13.419Z"}
 {"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-17T11:30:14.916Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-18T06:42:37.694Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-18T06:42:41.114Z"}
+{"level":"info","message":" Received POST request to /api/auth/register ","service":"user-service","timestamp":"2025-04-18T06:42:44.362Z"}
+{"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-04-18T06:42:44.371Z"}
+{"buffer":{"data":[104,1,244,100,69,135,73,188,131,31,234,36],"type":"Buffer"},"level":"warn","message":"user created successfully","service":"user-service","timestamp":"2025-04-18T06:42:45.078Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-18T06:42:45.080Z"}
+{"level":"info","message":" Received POST request to /api/auth/register ","service":"user-service","timestamp":"2025-04-18T06:47:51.027Z"}
+{"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-04-18T06:47:51.032Z"}
+{"buffer":{"data":[104,1,245,151,69,135,73,188,131,31,234,41],"type":"Buffer"},"level":"warn","message":"user created successfully","service":"user-service","timestamp":"2025-04-18T06:47:51.536Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-18T06:47:51.538Z"}

@@ -86,16 +86,16 @@ const sensativeEndpointsRateLimiter =  rateLimit({
         sendCommand: (...args)=> redisClient.call(...args)
     })
 
-})
+});
 
 
 
 
 // Applying sensative_ratelimiter to routes
-// app.use('/api/v1/auth/register',sensativeEndpointsRateLimiter);
+// app.use('/api/auth/register',sensativeEndpointsRateLimiter);
 
 // ________________________( API endpoints )___________________________
-app.use('/api/v1/auth', route)
+app.use('/api/auth', route)
  
 
 // Set the port

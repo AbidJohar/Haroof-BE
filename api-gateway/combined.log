@@ -1,0 +1,54 @@
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:29:06.257Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:29:06.263Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:29:06.264Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:29:07.517Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:29:07.522Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:29:07.523Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:30:20.145Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:30:20.149Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:30:20.150Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:30:29.344Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:30:29.349Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:30:29.350Z"}
+{"level":"info","message":" Received POST request to /v1/auth/register ","service":"api_gateway","timestamp":"2025-04-18T06:31:10.931Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api_gateway","timestamp":"2025-04-18T06:31:10.932Z"}
+{"level":"info","message":" Received POST request to /v1/auth/register ","service":"api_gateway","timestamp":"2025-04-18T06:32:33.650Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api_gateway","timestamp":"2025-04-18T06:32:33.651Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:34:51.346Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:34:51.350Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:34:51.351Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:34:52.611Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:34:52.615Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:34:52.616Z"}
+{"level":"info","message":" Received POST request to /v1/auth/register ","service":"api_gateway","timestamp":"2025-04-18T06:34:56.047Z"}
+{"level":"info","message":"Request body: [object Object]","service":"api_gateway","timestamp":"2025-04-18T06:34:56.048Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:36:53.412Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:36:53.416Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:36:53.417Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:38:00.518Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:38:00.522Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:38:00.523Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:38:01.805Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:38:01.810Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:38:01.811Z"}
+{"level":"info","message":" Received POST request to /v1/auth/register ","service":"api_gateway","timestamp":"2025-04-18T06:38:43.203Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"test user 6\",\"password\":\"123456\",\"email\":\"test6@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-18T06:38:43.204Z"}
+{"level":"info","message":" Received POST request to /v1/auth/register ","service":"api_gateway","timestamp":"2025-04-18T06:41:13.201Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"test user 6\",\"password\":\"123456\",\"email\":\"test6@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-18T06:41:13.202Z"}
+{"level":"info","message":" Received POST request to /v1/auth/register ","service":"api_gateway","timestamp":"2025-04-18T06:44:43.058Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"test user 7\",\"password\":\"123456\",\"email\":\"test7@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-18T06:44:43.059Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:47:24.047Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:47:24.051Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:47:24.052Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:47:25.285Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:47:25.289Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:47:25.290Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:47:26.582Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:47:26.588Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:47:26.591Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-18T06:47:46.828Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-18T06:47:46.834Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-18T06:47:46.835Z"}
+{"level":"info","message":" Received POST request to /v1/auth/register ","service":"api_gateway","timestamp":"2025-04-18T06:47:50.997Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"test user 7\",\"password\":\"123456\",\"email\":\"test7@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-18T06:47:50.998Z"}
+{"level":"info","message":"Responce received from user-service: 200","service":"api_gateway","timestamp":"2025-04-18T06:47:51.757Z"}
