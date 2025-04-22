@@ -146,3 +146,193 @@
 {"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-04-18T06:47:51.032Z"}
 {"buffer":{"data":[104,1,245,151,69,135,73,188,131,31,234,41],"type":"Buffer"},"level":"warn","message":"user created successfully","service":"user-service","timestamp":"2025-04-18T06:47:51.536Z"}
 {"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-18T06:47:51.538Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:15:36.238Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:15:39.082Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-22T09:15:40.698Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-22T09:15:40.702Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-22T09:15:40.929Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:16:30.754Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:16:32.058Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:16:34.243Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-22T09:16:34.791Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-22T09:16:34.793Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-22T09:16:35.051Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:16:42.469Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:16:45.099Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:24:11.372Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:24:14.025Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:24:16.262Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:24:45.555Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:24:47.864Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:24:53.430Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:24:54.942Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:24:56.907Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:25:14.185Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:25:16.689Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:25:22.812Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:25:25.369Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:25:28.083Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:25:29.648Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:25:34.247Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:25:38.815Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:25:41.046Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:25:48.371Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:25:50.153Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:25:58.672Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:26:00.376Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:26:02.433Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:26:05.961Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:26:08.186Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:26:10.618Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:26:12.782Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:26:18.168Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:26:20.200Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:26:21.579Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:26:23.139Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:26:42.129Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:26:43.489Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:26:45.519Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:26:47.813Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:26:50.148Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:27:15.877Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:27:17.877Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:27:39.927Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:27:42.210Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:28:03.048Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:28:05.378Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:28:12.861Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:28:15.506Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:28:16.626Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:28:18.597Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:28:28.189Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:28:30.336Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:28:33.985Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:28:36.425Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:28:38.113Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:28:54.175Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:28:55.319Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:28:57.254Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:29:22.963Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:29:25.034Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:29:26.051Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:29:27.857Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:29:47.150Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:29:49.196Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:29:55.405Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:29:57.481Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:29:58.284Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:29:59.909Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:32:00.002Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:32:02.928Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:32:09.615Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:33:21.458Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:33:27.341Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:33:35.863Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:33:41.793Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:33:42.912Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:33:44.640Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:33:53.799Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:33:58.083Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:34:02.591Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:34:06.222Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:34:08.440Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:34:10.528Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:35:32.369Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:35:34.821Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:35:35.761Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:35:37.927Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:35:38.756Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:35:40.902Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:35:42.762Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:36:03.801Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:36:05.762Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:36:14.268Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:36:16.242Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:36:21.177Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:36:22.981Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:36:33.350Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:36:35.714Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:36:40.885Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:36:41.544Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:36:43.648Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:37:07.975Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:37:10.101Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:37:12.273Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:37:17.527Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:37:19.352Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:37:36.318Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:37:38.496Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:37:40.023Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:37:49.833Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:37:51.186Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:38:01.016Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:38:03.215Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:38:03.930Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:38:47.217Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:38:48.394Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:38:50.451Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:39:18.592Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:39:21.058Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:39:24.581Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:39:26.854Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:39:29.204Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:39:43.416Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:39:45.605Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:39:46.415Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:39:47.991Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:39:50.130Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:39:54.761Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:39:57.661Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:39:59.265Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:40:01.206Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:40:02.749Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:40:12.693Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:40:15.811Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:40:18.549Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:40:30.678Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:40:32.602Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:40:34.900Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:40:49.167Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:40:50.396Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:40:58.048Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:41:00.182Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:41:12.666Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:41:23.919Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:41:26.099Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:41:30.828Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:41:33.637Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:41:36.020Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:44:57.433Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:44:59.904Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:45:04.616Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:45:11.085Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:45:59.754Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:46:01.398Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:46:04.248Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:46:16.687Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:46:20.536Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:46:24.153Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:46:47.176Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:46:55.916Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:47:02.515Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:47:13.079Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:47:14.491Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:47:19.344Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:47:21.127Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:47:32.114Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:47:48.668Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:47:51.516Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:47:54.014Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:47:57.698Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:47:59.589Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:48:06.092Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:48:11.677Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:48:12.499Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:48:14.705Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:48:20.311Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:48:24.838Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:48:35.652Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T09:48:37.044Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:48:42.377Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T10:05:11.042Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T10:05:14.535Z"}
