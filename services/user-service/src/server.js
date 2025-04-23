@@ -91,8 +91,8 @@ const sensativeEndpointsRateLimiter =  rateLimit({
 
 
 
-// Applying sensative_ratelimiter to routes
-// app.use('/api/auth/register',sensativeEndpointsRateLimiter);
+//Applying sensative_ratelimiter to routes
+app.use('/api/auth/register',sensativeEndpointsRateLimiter);
 
 // ________________________( API endpoints )___________________________
 app.use('/api/auth', route)

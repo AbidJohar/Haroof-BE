@@ -336,3 +336,5 @@
 {"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T09:48:42.377Z"}
 {"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T10:05:11.042Z"}
 {"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T10:05:14.535Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T11:36:02.870Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T11:36:05.743Z"}
