@@ -8,6 +8,7 @@ import {RedisStore}   from 'rate-limit-redis';
 import logger from './utils/logger.js';
 import  proxy from 'express-http-proxy';
 import errorHandler from './middlewares/errorHandler.js';
+import validateToken from './middlewares/validateToken.js';
 dotenv.config();
 
 const app = express();
@@ -64,23 +65,43 @@ const proxyOptions = {
 //_______________(setting up proxy for our User_service )____________
 
 app.use('/v1/auth', proxy(process.env.USER_SERVICE_URL,
-{
- ...proxyOptions,
- proxyReqOptDecorator: function(proxyReqOpts, srcReq) {
-      proxyReqOpts.headers['Content-Type'] = "application/json"
-      return proxyReqOpts
-  },
-  userResDecorator: function(proxyRes, proxyResData, userReq, userRes) {
-     logger.info(`Responce received from user-service: ${proxyRes.statusCode}`);
-     return proxyResData
-  }
-}));
+    {
+        ...proxyOptions,
+        proxyReqOptDecorator: function(proxyReqOpts, srcReq) {
+            proxyReqOpts.headers['Content-Type'] = "application/json"
+            return proxyReqOpts
+        },
+        userResDecorator: function(proxyRes, proxyResData, userReq, userRes) {
+            logger.info(`Responce received from user-service: ${proxyRes.statusCode}`);
+            return proxyResData
+        }
+    }));
+    
+ //_______________(setting up proxy for our User_service )____________
+
+app.use('/v1/books', validateToken, proxy(process.env.BOOK_SERVICE_URL, {
+    ...proxyOptions,
+    proxyReqOptDecorator: function(proxyReqOpts, srcReq){
+        proxyReqOpts.headers['content-Type'] = "application/json"
+        proxyReqOpts.headers['x-user-id'] =  srcReq.user.userId
+        return proxyReqOpts
+    },
+    userResDecorator: function(proxyRes, proxyResData, userReq, userRes) {
+        logger.info(`Responce received from Book-service: ${proxyRes.statusCode}`);
+        return proxyResData
+    }
+}))
+
+
+
+
 
 app.use(errorHandler);
 
 app.listen(port, ()=>{
     logger.info(`Api gate is running on port: ${port}`);
     logger.info(`User service is running on port: ${process.env.USER_SERVICE_URL}`);
+    logger.info(`Book service is running on port: ${process.env.BOOK_SERVICE_URL}`);
     logger.info(`Redis URL: ${process.env.REDIS_URL}`);
 })
 

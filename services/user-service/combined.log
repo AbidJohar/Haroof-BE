@@ -338,3 +338,50 @@
 {"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T10:05:14.535Z"}
 {"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-22T11:36:02.870Z"}
 {"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-22T11:36:05.743Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T07:58:02.234Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-25T07:58:04.431Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-25T07:58:59.936Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-25T07:59:00.048Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-04-25T07:59:00.200Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Error during login Cannot set headers after they are sent to the client","service":"user-service","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\express\\lib\\response.js:250:15)\n    at login (file:///C:/Users/PMLS/OneDrive/Desktop/harof-BE/services/user-service/src/controllers/authController.js:79:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-25T07:59:00.206Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-25T07:59:38.221Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-25T07:59:38.224Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-04-25T07:59:38.335Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Error during login Cannot set headers after they are sent to the client","service":"user-service","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\express\\lib\\response.js:250:15)\n    at login (file:///C:/Users/PMLS/OneDrive/Desktop/harof-BE/services/user-service/src/controllers/authController.js:79:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-25T07:59:38.337Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:03:05.479Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:03:07.052Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-25T08:03:08.220Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:03:18.432Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:03:19.171Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-25T08:03:20.954Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:03:28.840Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-25T08:03:30.475Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:03:52.072Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-25T08:03:53.614Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:03:58.318Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-25T08:03:59.872Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:04:25.856Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-25T08:04:27.411Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:04:28.473Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-25T08:04:29.761Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-25T08:04:31.714Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-25T08:04:31.717Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-04-25T08:04:31.858Z"}
+{"level":"info","message":" Received POST request to /api/auth/register ","service":"user-service","timestamp":"2025-04-25T08:04:57.368Z"}
+{"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-04-25T08:04:57.371Z"}
+{"buffer":{"data":[104,11,66,41,8,108,201,207,65,57,64,99],"type":"Buffer"},"level":"warn","message":"user created successfully","service":"user-service","timestamp":"2025-04-25T08:04:57.920Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-25T08:04:57.923Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-25T08:05:21.998Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-25T08:05:22.000Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-04-25T08:05:22.279Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-25T08:05:30.910Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-25T08:05:30.912Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-04-25T08:05:31.101Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-25T08:05:41.479Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-25T08:05:41.480Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-25T08:05:41.689Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-25T08:20:04.566Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-25T08:20:04.569Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-25T08:20:04.881Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:36:49.028Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-25T08:36:50.976Z"}

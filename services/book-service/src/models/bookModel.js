@@ -20,9 +20,9 @@ const bookSchema = new mongoose.Schema({
     type: String,
     trim: true,
   },
-  coverImage: {
-    type: String,
-  },
+  // coverImage: {
+  //   type: String,
+  // },
   readByUsers: {
     type: Number,
     default: 0,

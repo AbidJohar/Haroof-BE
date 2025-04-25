@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import logger from '../src/utils/logger.js';
 import Redis from 'ioredis';
-import router from '../src/routes/bookRoutes.js';
+import bookRoutes from '../src/routes/bookRoutes.js';
 
 dotenv.config();
 
@@ -38,7 +38,10 @@ app.use((req,res,next)=>{
 
 
 // ________________________( API endpoints )___________________________
-app.use('/api/book', router)
+app.use('/api/books', (req,res,next)=>{
+    req.redisClient = redisClient;
+    next();
+}, bookRoutes)
  
 
 // Set the port

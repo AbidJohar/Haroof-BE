@@ -67,3 +67,90 @@
 {"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-22T10:05:16.200Z"}
 {"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-22T10:05:16.203Z"}
 {"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-22T10:05:16.204Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-25T07:35:09.285Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-25T07:35:09.288Z"}
+{"level":"info","message":"Book service is running on port: http://localhost:3002","service":"api_gateway","timestamp":"2025-04-25T07:35:09.288Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-25T07:35:09.289Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-25T07:57:47.165Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-25T07:57:47.168Z"}
+{"level":"info","message":"Book service is running on port: http://localhost:3002","service":"api_gateway","timestamp":"2025-04-25T07:57:47.168Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-25T07:57:47.169Z"}
+{"level":"info","message":" Received POST request to /v1/auth/login ","service":"api_gateway","timestamp":"2025-04-25T07:58:59.891Z"}
+{"level":"info","message":"Request body: {\"password\":\"123456\",\"email\":\"test7@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-25T07:58:59.891Z"}
+{"level":"info","message":"Responce received from user-service: 200","service":"api_gateway","timestamp":"2025-04-25T07:59:00.208Z"}
+{"level":"info","message":" Received POST request to /v1/auth/login ","service":"api_gateway","timestamp":"2025-04-25T07:59:38.212Z"}
+{"level":"info","message":"Request body: {\"password\":\"123456\",\"email\":\"test6@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-25T07:59:38.213Z"}
+{"level":"info","message":"Responce received from user-service: 200","service":"api_gateway","timestamp":"2025-04-25T07:59:38.338Z"}
+{"level":"info","message":" Received POST request to /v1/auth/login ","service":"api_gateway","timestamp":"2025-04-25T08:04:31.639Z"}
+{"level":"info","message":"Request body: {\"password\":\"123456\",\"email\":\"test6@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-25T08:04:31.639Z"}
+{"level":"info","message":"Responce received from user-service: 400","service":"api_gateway","timestamp":"2025-04-25T08:04:31.865Z"}
+{"level":"info","message":" Received POST request to /v1/auth/register ","service":"api_gateway","timestamp":"2025-04-25T08:04:57.365Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"testUser1\",\"password\":\"123456\",\"email\":\"test1@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-25T08:04:57.366Z"}
+{"level":"info","message":"Responce received from user-service: 200","service":"api_gateway","timestamp":"2025-04-25T08:04:58.228Z"}
+{"level":"info","message":" Received POST request to /v1/auth/login ","service":"api_gateway","timestamp":"2025-04-25T08:05:21.995Z"}
+{"level":"info","message":"Request body: {\"password\":\"1234567\",\"email\":\"test1@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-25T08:05:21.996Z"}
+{"level":"info","message":"Responce received from user-service: 400","service":"api_gateway","timestamp":"2025-04-25T08:05:22.282Z"}
+{"level":"info","message":" Received POST request to /v1/auth/login ","service":"api_gateway","timestamp":"2025-04-25T08:05:30.907Z"}
+{"level":"info","message":"Request body: {\"password\":\"123456\",\"email\":\"test2@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-25T08:05:30.908Z"}
+{"level":"info","message":"Responce received from user-service: 400","service":"api_gateway","timestamp":"2025-04-25T08:05:31.104Z"}
+{"level":"info","message":" Received POST request to /v1/auth/login ","service":"api_gateway","timestamp":"2025-04-25T08:05:41.475Z"}
+{"level":"info","message":"Request body: {\"password\":\"123456\",\"email\":\"test1@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-25T08:05:41.476Z"}
+{"level":"info","message":"Responce received from user-service: 200","service":"api_gateway","timestamp":"2025-04-25T08:05:41.857Z"}
+{"level":"info","message":" Received GET request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:11:26.415Z"}
+{"level":"info","message":"Request body: undefined","service":"api_gateway","timestamp":"2025-04-25T08:11:26.415Z"}
+{"level":"info","message":"Responce received from post-service: 413","service":"api_gateway","timestamp":"2025-04-25T08:11:26.488Z"}
+{"level":"info","message":" Received GET request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:13:26.512Z"}
+{"level":"info","message":"Request body: undefined","service":"api_gateway","timestamp":"2025-04-25T08:13:26.513Z"}
+{"level":"info","message":"Responce received from post-service: 400","service":"api_gateway","timestamp":"2025-04-25T08:13:26.608Z"}
+{"level":"info","message":" Received POST request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:17:16.515Z"}
+{"level":"info","message":"Request body: undefined","service":"api_gateway","timestamp":"2025-04-25T08:17:16.515Z"}
+{"level":"warn","message":"Access without a access token","service":"book-service","timestamp":"2025-04-25T08:17:16.518Z"}
+{"level":"error","message":"ReferenceError: res is not defined\n    at validateToken (file:///C:/Users/PMLS/OneDrive/Desktop/harof-BE/api-gateway/src/middlewares/validateToken.js:31:5)\n    at Layer.handleRequest (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\api-gateway\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\api-gateway\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\api-gateway\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\api-gateway\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\api-gateway\\node_modules\\router\\index.js:291:5)\n    at file:///C:/Users/PMLS/OneDrive/Desktop/harof-BE/api-gateway/node_modules/express-rate-limit/dist/index.mjs:794:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///C:/Users/PMLS/OneDrive/Desktop/harof-BE/api-gateway/node_modules/express-rate-limit/dist/index.mjs:676:5","service":"api_gateway","timestamp":"2025-04-25T08:17:16.522Z"}
+{"0":"r","1":"e","10":" ","11":"d","12":"e","13":"f","14":"i","15":"n","16":"e","17":"d","2":"s","3":" ","4":"i","5":"s","6":" ","7":"n","8":"o","9":"t","level":"warn","message":"Error during validateTOken","service":"book-service","timestamp":"2025-04-25T08:17:16.521Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-25T08:18:45.118Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-25T08:18:45.120Z"}
+{"level":"info","message":"Book service is running on port: http://localhost:3002","service":"api_gateway","timestamp":"2025-04-25T08:18:45.121Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-25T08:18:45.121Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-25T08:18:46.328Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-25T08:18:46.331Z"}
+{"level":"info","message":"Book service is running on port: http://localhost:3002","service":"api_gateway","timestamp":"2025-04-25T08:18:46.332Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-25T08:18:46.332Z"}
+{"level":"info","message":" Received POST request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:18:49.486Z"}
+{"level":"info","message":"Request body: undefined","service":"api_gateway","timestamp":"2025-04-25T08:18:49.486Z"}
+{"level":"warn","message":"Access without a access token","service":"book-service","timestamp":"2025-04-25T08:18:49.489Z"}
+{"level":"info","message":" Received POST request to /v1/auth/login ","service":"api_gateway","timestamp":"2025-04-25T08:20:04.553Z"}
+{"level":"info","message":"Request body: {\"password\":\"123456\",\"email\":\"test1@gmail.com\"}","service":"api_gateway","timestamp":"2025-04-25T08:20:04.555Z"}
+{"level":"info","message":"Responce received from user-service: 200","service":"api_gateway","timestamp":"2025-04-25T08:20:05.060Z"}
+{"level":"info","message":" Received POST request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:20:38.468Z"}
+{"level":"info","message":"Request body: undefined","service":"api_gateway","timestamp":"2025-04-25T08:20:38.469Z"}
+{"level":"info","message":"Responce received from post-service: 400","service":"api_gateway","timestamp":"2025-04-25T08:20:38.505Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-25T08:21:30.856Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-25T08:21:30.859Z"}
+{"level":"info","message":"Book service is running on port: http://localhost:3002","service":"api_gateway","timestamp":"2025-04-25T08:21:30.860Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-25T08:21:30.860Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-25T08:21:31.345Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-25T08:21:31.348Z"}
+{"level":"info","message":"Book service is running on port: http://localhost:3002","service":"api_gateway","timestamp":"2025-04-25T08:21:31.348Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-25T08:21:31.349Z"}
+{"level":"info","message":" Received POST request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:22:57.891Z"}
+{"level":"info","message":"Request body: {\"title\":\"My Book\",\"author\":\"Abid Johar\",\"description\":\"A great book\"}","service":"api_gateway","timestamp":"2025-04-25T08:22:57.892Z"}
+{"level":"info","message":"Responce received from Book-service: 400","service":"api_gateway","timestamp":"2025-04-25T08:22:58.009Z"}
+{"level":"info","message":" Received POST request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:24:14.962Z"}
+{"level":"info","message":"Request body: {\"title\":\"My Book\",\"author\":\"Abid Johar\",\"description\":\"A great book\"}","service":"api_gateway","timestamp":"2025-04-25T08:24:14.964Z"}
+{"level":"info","message":"Responce received from Book-service: 400","service":"api_gateway","timestamp":"2025-04-25T08:24:14.997Z"}
+{"level":"info","message":" Received POST request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:27:20.321Z"}
+{"level":"info","message":"Request body: {\"title\":\"My Book\",\"description\":\"A great book\",\"category\":\"horror\"}","service":"api_gateway","timestamp":"2025-04-25T08:27:20.321Z"}
+{"level":"info","message":"Responce received from Book-service: 500","service":"api_gateway","timestamp":"2025-04-25T08:27:20.337Z"}
+{"level":"info","message":" Received POST request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:28:38.732Z"}
+{"level":"info","message":"Request body: {\"title\":\"My Book\",\"description\":\"A great book\",\"category\":\"horror\"}","service":"api_gateway","timestamp":"2025-04-25T08:28:38.733Z"}
+{"level":"info","message":"Responce received from Book-service: 500","service":"api_gateway","timestamp":"2025-04-25T08:28:38.768Z"}
+{"level":"info","message":" Received POST request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:29:16.805Z"}
+{"level":"info","message":"Request body: {\"title\":\"My Book\",\"description\":\"A great book\",\"category\":\"horror\"}","service":"api_gateway","timestamp":"2025-04-25T08:29:16.805Z"}
+{"level":"info","message":"Responce received from Book-service: 500","service":"api_gateway","timestamp":"2025-04-25T08:29:16.937Z"}
+{"level":"info","message":" Received POST request to /v1/books/create-book ","service":"api_gateway","timestamp":"2025-04-25T08:35:45.996Z"}
+{"level":"info","message":"Request body: {\"title\":\"My Book\",\"description\":\"A great book\",\"category\":\"horror\"}","service":"api_gateway","timestamp":"2025-04-25T08:35:45.997Z"}
+{"level":"info","message":"Responce received from Book-service: 201","service":"api_gateway","timestamp":"2025-04-25T08:35:46.190Z"}
+{"level":"info","message":"Api gate is running on port: 3000","service":"api_gateway","timestamp":"2025-04-25T08:36:43.698Z"}
+{"level":"info","message":"User service is running on port: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-25T08:36:43.702Z"}
+{"level":"info","message":"Book service is running on port: http://localhost:3002","service":"api_gateway","timestamp":"2025-04-25T08:36:43.703Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-25T08:36:43.703Z"}

@@ -76,7 +76,7 @@ const login = async (req, res) => {
 
     if (!user) {
         logger.warn("Invalid user");
-        return res.json(400).json({
+        return res.status(400).json({
             message: false,
             message: "User doesn't exist",
         });
