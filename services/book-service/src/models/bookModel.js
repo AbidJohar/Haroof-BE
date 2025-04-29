@@ -20,9 +20,9 @@ const bookSchema = new mongoose.Schema({
     type: String,
     trim: true,
   },
-  // coverImage: {
-  //   type: String,
-  // },
+  coverImage: {
+    type: String,
+  },
   readByUsers: {
     type: Number,
     default: 0,
@@ -35,6 +35,10 @@ const bookSchema = new mongoose.Schema({
     type: [String], // You can later change this to a more complex schema if needed
     default: [],
   },
+  isPublished : {
+    type: Boolean,
+    default: false
+  }
 }, {
   timestamps: true // automatically adds createdAt and updatedAt
 });
@@ -42,3 +46,5 @@ const bookSchema = new mongoose.Schema({
 const Book = mongoose.model('Book', bookSchema);
 
 export default Book;
+
+ 

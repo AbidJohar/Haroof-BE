@@ -26,7 +26,7 @@ const redisClient = new Redis(process.env.REDIS_URL);
 // ____________( middlewares )_______________
 app.use(helmet());
 app.use(express.json());  // To parse JSON request bodies
-app.use(express.urlencoded({ extended: true }));  // To parse URL-encoded data
+app.use(express.urlencoded({ extended: true }));   
 app.use(cors());  // Enable CORS for all routes (modify if needed)
 
 

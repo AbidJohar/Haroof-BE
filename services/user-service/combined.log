@@ -385,3 +385,15 @@
 {"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-25T08:20:04.881Z"}
 {"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-25T08:36:49.028Z"}
 {"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-25T08:36:50.976Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-26T06:46:49.264Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.1fsor8r.mongodb.net","level":"error","message":"mongdb connection failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.1fsor8r.mongodb.net","service":"user-service","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.1fsor8r.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv","timestamp":"2025-04-26T06:46:49.277Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-29T07:24:52.247Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-29T07:24:56.095Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-29T07:25:02.682Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-29T07:25:02.690Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-29T07:25:02.922Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-04-29T08:05:22.476Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-04-29T08:05:22.479Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-29T08:05:22.705Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-29T08:10:13.446Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-29T08:10:15.284Z"}

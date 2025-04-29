@@ -1,5 +1,3 @@
-import jwt from 'jsonwebtoken';
-import User from '../models/User.js'; // adjust the path
 import logger from '../utils/logger.js';
 
 const authMiddleware = async (req, res, next) => {
