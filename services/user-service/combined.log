@@ -397,3 +397,17 @@
 {"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-04-29T08:05:22.705Z"}
 {"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-04-29T08:10:13.446Z"}
 {"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-04-29T08:10:15.284Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-01T09:41:21.470Z"}
+{"level":"info","message":" Received POST request to /api/auth/register ","service":"user-service","timestamp":"2025-05-01T09:41:27.067Z"}
+{"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-05-01T09:41:27.073Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-01T09:41:32.735Z"}
+{"buffer":{"data":[104,19,65,204,130,120,72,2,44,7,190,9],"type":"Buffer"},"level":"warn","message":"user created successfully","service":"user-service","timestamp":"2025-05-01T09:41:33.143Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-01T09:41:33.144Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-01T10:27:36.334Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-01T10:27:37.975Z"}
+{"level":"info","message":" Received POST request to /api/auth/register ","service":"user-service","timestamp":"2025-05-01T10:27:39.442Z"}
+{"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-05-01T10:27:39.447Z"}
+{"email":"test1@gmail.com","level":"warn","message":"User already exists","service":"user-service","timestamp":"2025-05-01T10:27:39.585Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-01T10:28:10.957Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-01T10:28:10.961Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-01T10:28:11.183Z"}

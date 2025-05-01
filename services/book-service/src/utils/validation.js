@@ -11,6 +11,9 @@ const bookValidation = (data) => {
     description: Joi.string().allow("", null).messages({
       "string.base": "Description must be a string.",
     }),
+    content: Joi.string().max(10000).allow("", null).messages({
+      "string.base": "content is not more than 10,000 words.",
+    }),
 
     category: Joi.string().allow("", null).messages({
       "string.base": "Category must be a string.",

@@ -416,3 +416,234 @@
 {"bookId":"68108855373ba317184a568a","level":"info","message":"Book created successfully","service":"book-service","timestamp":"2025-04-29T08:05:41.973Z"}
 {"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-04-29T08:09:18.036Z"}
 {"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-04-29T08:09:20.204Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:41:52.335Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:41:54.500Z"}
+{"level":"info","message":" Received POST request to /api/books/create-book ","service":"book-service","timestamp":"2025-05-01T09:43:28.813Z"}
+{"level":"error","message":"No file found..","service":"book-service","timestamp":"2025-05-01T09:43:28.823Z"}
+{"level":"info","message":" Received POST request to /api/books/create-book ","service":"book-service","timestamp":"2025-05-01T09:44:09.183Z"}
+{"level":"info","message":"Create Book endpoint is hitting...","service":"book-service","timestamp":"2025-05-01T09:44:09.191Z"}
+{"0":"\"","1":"c","10":"i","11":"s","12":" ","13":"n","14":"o","15":"t","16":" ","17":"a","18":"l","19":"l","2":"o","20":"o","21":"w","22":"e","23":"d","3":"n","4":"t","5":"e","6":"n","7":"t","8":"\"","9":" ","level":"warn","message":"Validation error","service":"book-service","timestamp":"2025-05-01T09:44:09.230Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:44:39.583Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:44:41.266Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:44:54.768Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:44:56.420Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:44:59.889Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:45:02.177Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:06.228Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:07.559Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:45:08.711Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:11.467Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:45:14.909Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:17.815Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:18.910Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:45:20.069Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:30.262Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:45:31.949Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:36.225Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:45:37.865Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:39.999Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:45:41.931Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:47.084Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:45:50.795Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:51.560Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:45:53.971Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:45:56.301Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:45:57.978Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:46:00.011Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:46:00.941Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:46:03.615Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:46:24.630Z"}
+{"level":"info","message":" Received POST request to /api/books/create-book ","service":"book-service","timestamp":"2025-05-01T09:46:27.081Z"}
+{"level":"info","message":"Create Book endpoint is hitting...","service":"book-service","timestamp":"2025-05-01T09:46:27.088Z"}
+{"level":"info","message":"File details: originalName: food_1.png type: undefined","service":"book-service","timestamp":"2025-05-01T09:46:27.104Z"}
+{"level":"info","message":"uploading to cloudinary starting...","service":"book-service","timestamp":"2025-05-01T09:46:27.105Z"}
+{"level":"info","message":"cloudinary upload successfully. public ID: ybbc5zoegbb6z1pxgz8t","service":"book-service","timestamp":"2025-05-01T09:46:32.631Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:46:32.751Z"}
+{"bookId":"681342f8310a3fb50fb57646","level":"info","message":"Book created successfully","service":"book-service","timestamp":"2025-05-01T09:46:32.867Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:50:07.963Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:50:10.501Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:50:27.240Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:50:29.904Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:57:24.328Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:57:26.922Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:57:28.161Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:57:29.448Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:57:30.687Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:58:22.135Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:58:23.849Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:58:25.563Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:58:27.637Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:58:39.360Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:58:41.092Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:58:48.346Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:58:50.988Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:58:53.694Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:58:55.182Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:58:57.077Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:58:58.096Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:59:00.929Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:59:06.192Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:59:07.517Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:59:09.078Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:59:10.549Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:59:12.291Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:59:13.572Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T09:59:15.254Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T09:59:16.445Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:01:52.246Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:01:54.407Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:02:28.454Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:02:30.128Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:02:31.381Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:02:32.903Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:02:36.588Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:02:38.324Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:03:12.361Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:03:14.519Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:03:21.076Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:03:22.672Z"}
+{"level":"info","message":" Received POST request to /api/books/create-book ","service":"book-service","timestamp":"2025-05-01T10:09:04.761Z"}
+{"level":"info","message":"Create Book endpoint is hitting...","service":"book-service","timestamp":"2025-05-01T10:09:04.769Z"}
+{"level":"info","message":"File details: originalName: food_1.png, type: image/png","service":"book-service","timestamp":"2025-05-01T10:09:04.792Z"}
+{"level":"info","message":"Uploading cover image to Cloudinary...","service":"book-service","timestamp":"2025-05-01T10:09:04.793Z"}
+{"level":"info","message":"Cover image uploaded successfully. Cloudinary public ID: niydl5qscnrvqm0fqzqe","service":"book-service","timestamp":"2025-05-01T10:09:08.192Z"}
+{"level":"info","message":"Encrypting and uploading book content to Cloudinary...","service":"book-service","timestamp":"2025-05-01T10:09:08.193Z"}
+{"level":"info","message":"Book content uploaded successfully.","service":"book-service","timestamp":"2025-05-01T10:09:09.278Z"}
+{"bookId":"68134845fd67c783bd4c449f","level":"info","message":"Book created successfully","service":"book-service","timestamp":"2025-05-01T10:09:09.485Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:12:25.444Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:12:27.040Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:12:28.199Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:12:31.120Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:12:32.967Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:12:35.124Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:12:36.524Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:12:37.684Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:12:40.368Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:12:42.432Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:12:43.530Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:12:45.470Z"}
+{"level":"info","message":" Received POST request to /api/books/create-book ","service":"book-service","timestamp":"2025-05-01T10:13:13.718Z"}
+{"level":"info","message":"Create Book endpoint is hitting...","service":"book-service","timestamp":"2025-05-01T10:13:13.731Z"}
+{"level":"info","message":"File details: originalName: food_1.png, type: image/png","service":"book-service","timestamp":"2025-05-01T10:13:13.761Z"}
+{"level":"info","message":"Uploading cover image to Cloudinary...","service":"book-service","timestamp":"2025-05-01T10:13:13.761Z"}
+{"level":"info","message":"Cover image uploaded successfully. Cloudinary public ID: vcsuugzeqbo1ojspgu8r","service":"book-service","timestamp":"2025-05-01T10:13:16.389Z"}
+{"level":"info","message":"Encrypting and uploading book content to Cloudinary...","service":"book-service","timestamp":"2025-05-01T10:13:16.390Z"}
+{"level":"info","message":"Book content uploaded successfully.","service":"book-service","timestamp":"2025-05-01T10:13:17.336Z"}
+{"bookId":"6813493d4cb4dbe59e3736c5","level":"info","message":"Book created successfully","service":"book-service","timestamp":"2025-05-01T10:13:17.477Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:14:58.728Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:15:00.248Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:15:01.940Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:15:06.414Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:15:07.948Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:15:10.608Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:15:12.160Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:15:44.801Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:15:46.492Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:15:52.037Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:15:53.577Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:15:54.909Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:15:57.686Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:15:59.605Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:16:46.681Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:16:50.105Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:16:51.621Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:16:54.566Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:16:56.944Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:17:00.385Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:17:01.870Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:17:49.633Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:17:51.340Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:18:11.128Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:18:12.548Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:18:13.848Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:18:18.867Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:18:20.400Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:18:33.862Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:19:17.367Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:19:18.190Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:19:20.052Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:24:41.203Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:24:42.860Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:24:43.894Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:24:45.109Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:24:47.335Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:24:50.040Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:24:51.653Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:24:52.812Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:25:19.772Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:25:21.499Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:25:26.326Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:25:27.933Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:25:28.866Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:25:30.803Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:25:34.616Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:25:36.296Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:25:37.917Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:25:39.510Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:25:41.854Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:25:44.919Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:26:53.981Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:26:56.417Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:26:58.049Z"}
+{"level":"info","message":" Received POST request to /api/books/getallbooks ","service":"book-service","timestamp":"2025-05-01T10:28:28.850Z"}
+{"level":"info","message":"Fetching all books...","service":"book-service","timestamp":"2025-05-01T10:28:28.851Z"}
+{"count":1,"level":"info","message":"Books fetched successfully","service":"book-service","timestamp":"2025-05-01T10:28:29.071Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:32:42.607Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:32:44.709Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:32:45.656Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:32:47.381Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:32:50.150Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:32:50.866Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:32:52.449Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:34:54.750Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:34:55.568Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:34:57.883Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:42:03.535Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:42:05.382Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:42:06.952Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:42:26.866Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:42:27.521Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:42:28.854Z"}
+{"level":"info","message":" Received POST request to /api/books/getbook/6813493d4cb4dbe59e3736c5 ","service":"book-service","timestamp":"2025-05-01T10:44:12.197Z"}
+{"level":"info","message":"GetBook by Id is hitting...","service":"book-service","timestamp":"2025-05-01T10:44:12.199Z"}
+{"bookId":"6813493d4cb4dbe59e3736c5","level":"info","message":"Book fetched successfully","service":"book-service","timestamp":"2025-05-01T10:44:12.695Z"}
+{"level":"info","message":" Received POST request to /api/books/deletebook/6813493d4cb4dbe59e3736c5 ","service":"book-service","timestamp":"2025-05-01T10:45:38.451Z"}
+{"level":"info","message":" Received DELETE request to /api/books/deletebook/6813493d4cb4dbe59e3736c5 ","service":"book-service","timestamp":"2025-05-01T10:45:54.898Z"}
+{"level":"info","message":"Deleting book with ID: 6813493d4cb4dbe59e3736c5","service":"book-service","timestamp":"2025-05-01T10:45:54.899Z"}
+{"level":"error","message":"Error while deleting book book.remove is not a function","service":"book-service","stack":"TypeError: book.remove is not a function\n    at deleteBookById (file:///C:/Users/PMLS/OneDrive/Desktop/harof-BE/services/book-service/src/controllers/bookController.js:148:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-05-01T10:45:55.095Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:46:40.425Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:46:41.940Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:46:43.744Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:46:46.192Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:46:52.725Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:46:54.134Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:46:55.318Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:46:56.743Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:46:59.501Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:47:01.093Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:47:03.910Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:47:25.458Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:47:27.054Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:47:30.837Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:47:32.415Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:47:35.051Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:47:37.672Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:47:50.527Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:47:53.400Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:48:12.679Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:48:14.896Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:48:17.293Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:48:47.062Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:48:48.881Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:48:50.129Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:48:52.467Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:48:54.642Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:48:56.595Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:48:59.616Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:49:01.516Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:49:02.756Z"}
+{"level":"info","message":"Book-service is running on port: 3002","service":"book-service","timestamp":"2025-05-01T10:49:07.792Z"}
+{"level":"info","message":"DB connected successfully","service":"book-service","timestamp":"2025-05-01T10:49:09.328Z"}
+{"level":"info","message":" Received DELETE request to /api/books/deletebook/6813493d4cb4dbe59e3736c5 ","service":"book-service","timestamp":"2025-05-01T10:49:10.521Z"}
+{"level":"info","message":"Deleting book with ID: 6813493d4cb4dbe59e3736c5","service":"book-service","timestamp":"2025-05-01T10:49:10.523Z"}
+{"bookId":"6813493d4cb4dbe59e3736c5","level":"info","message":"Book deleted successfully","service":"book-service","timestamp":"2025-05-01T10:49:10.644Z"}

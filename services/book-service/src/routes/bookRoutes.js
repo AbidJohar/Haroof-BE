@@ -1,5 +1,5 @@
 import express from 'express';
-import { createBook } from '../controllers/bookController.js';
+import { createBook, deleteBookById, getAllBooks, getBookById } from '../controllers/bookController.js';
 import uploadFile from '../utils/uploadfile.js';
 import authmiddleware from '../middlewares/authmiddleware.js'
 import multer from 'multer';
@@ -38,6 +38,10 @@ router.post('/create-book', authmiddleware, (req,res, next) =>{
       next()
     });
 }, createBook );
+
+router.get('/getallbooks', authmiddleware, getAllBooks);
+router.post('/getbook/:id', authmiddleware, getBookById);
+router.delete('/deletebook/:id', authmiddleware, deleteBookById);
 
 
 

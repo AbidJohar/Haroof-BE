@@ -271,3 +271,53 @@
 {"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-04-29T08:10:18.539Z"}
 {"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-04-29T08:10:18.540Z"}
 {"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-04-29T08:10:18.540Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-01T09:36:51.786Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-01T09:36:51.789Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-01T09:36:51.789Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-01T09:36:51.790Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api_gateway","timestamp":"2025-05-01T09:40:51.507Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"testUser1\",\"password\":\"123456\",\"email\":\"test1@gmail.com\"}","service":"api_gateway","timestamp":"2025-05-01T09:40:51.508Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-01T09:40:51.524Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api_gateway","timestamp":"2025-05-01T09:41:26.981Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"testUser1\",\"password\":\"123456\",\"email\":\"test1@gmail.com\"}","service":"api_gateway","timestamp":"2025-05-01T09:41:26.982Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-01T09:41:33.679Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api_gateway","timestamp":"2025-05-01T09:43:28.800Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-01T09:43:28.829Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api_gateway","timestamp":"2025-05-01T09:44:09.126Z"}
+{"level":"info","message":"Response received from Book-service: 400","service":"api_gateway","timestamp":"2025-05-01T09:44:09.234Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api_gateway","timestamp":"2025-05-01T09:46:27.073Z"}
+{"level":"info","message":"Response received from Book-service: 201","service":"api_gateway","timestamp":"2025-05-01T09:46:32.871Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api_gateway","timestamp":"2025-05-01T10:09:04.705Z"}
+{"level":"info","message":"Response received from Book-service: 201","service":"api_gateway","timestamp":"2025-05-01T10:09:09.489Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book","service":"api_gateway","timestamp":"2025-05-01T10:13:13.704Z"}
+{"level":"info","message":"Response received from Book-service: 201","service":"api_gateway","timestamp":"2025-05-01T10:13:17.483Z"}
+{"level":"info","message":"Received POST request to /v1/books/getallbooks","service":"api_gateway","timestamp":"2025-05-01T10:26:13.164Z"}
+{"level":"warn","message":"Invalid token","service":"book-service","timestamp":"2025-05-01T10:26:13.169Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api_gateway","timestamp":"2025-05-01T10:27:12.658Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"testUser1\",\"password\":\"123456\",\"email\":\"test1@gmail.com\"}","service":"api_gateway","timestamp":"2025-05-01T10:27:12.658Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-01T10:27:12.664Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api_gateway","timestamp":"2025-05-01T10:27:39.381Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"testUser1\",\"password\":\"123456\",\"email\":\"test1@gmail.com\"}","service":"api_gateway","timestamp":"2025-05-01T10:27:39.382Z"}
+{"level":"info","message":"Response received from user-service: 409","service":"api_gateway","timestamp":"2025-05-01T10:27:39.589Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-01T10:28:10.902Z"}
+{"level":"info","message":"Request body: {\"password\":\"123456\",\"email\":\"test1@gmail.com\"}","service":"api_gateway","timestamp":"2025-05-01T10:28:10.903Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-01T10:28:11.355Z"}
+{"level":"info","message":"Received POST request to /v1/books/getallbooks","service":"api_gateway","timestamp":"2025-05-01T10:28:28.841Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-01T10:28:29.076Z"}
+{"level":"info","message":"Received GET request to /v1//deletebook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:31:28.488Z"}
+{"level":"info","message":"Received GET request to /v1/deletebook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:31:40.848Z"}
+{"level":"info","message":"Received GET request to /v1/deletebook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:32:57.067Z"}
+{"level":"info","message":"Received GET request to /v1/deletebook/$%7B6813493d4cb4dbe59e3736c5%7D","service":"api_gateway","timestamp":"2025-05-01T10:33:36.420Z"}
+{"level":"info","message":"Received GET request to /v1/deletebook/$%7B6813493d4cb4dbe59e3736c5%7D","service":"api_gateway","timestamp":"2025-05-01T10:35:47.030Z"}
+{"level":"info","message":"Received DELETE request to /v1/deletebook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:37:11.650Z"}
+{"level":"info","message":"Received DELETE request to /v1/deletebook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:38:20.496Z"}
+{"level":"info","message":"Received POST request to /v1/getbook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:41:29.779Z"}
+{"level":"info","message":"Received POST request to /v1/getbook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:42:30.627Z"}
+{"level":"info","message":"Received POST request to /v1/books/getbook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:44:12.191Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-01T10:44:12.699Z"}
+{"level":"info","message":"Received POST request to /v1/books/deletebook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:45:38.447Z"}
+{"level":"info","message":"Response received from Book-service: 404","service":"api_gateway","timestamp":"2025-05-01T10:45:38.453Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/deletebook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:45:54.894Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-01T10:45:55.098Z"}
+{"level":"info","message":"Received DELETE request to /v1/books/deletebook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:49:10.515Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-01T10:49:10.648Z"}

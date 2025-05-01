@@ -1,12 +1,10 @@
 import Book from '../models/bookModel.js';
 import { uploadonCloudinay } from '../utils/cloudinary.js';
 import logger from '../utils/logger.js';  
-import { bookValidation} from '../utils/validation.js'; 
+import { bookValidation } from '../utils/validation.js';
+import  encryptAndUploadContent from '../utils/encryptAndSaveContent.js'
 
-
-// ____________________(Create Book Controller)____________________
-
- const createBook = async (req, res) => {
+const createBook = async (req, res) => {
   logger.info("Create Book endpoint is hitting...");
 
   try {
@@ -18,36 +16,37 @@ import { bookValidation} from '../utils/validation.js';
         message: error.details[0].message,
       });
     }
-    if(!req.file){
-      logger.warn("No file found. please add a file and add again!");
+
+    if (!req.file) {
+      logger.warn("No cover image file found.");
       return res.status(404).json({
         success: false,
-        message: "No file found. please add a file and add again!"
-      })
+        message: "No cover image file found. Please add a file and try again!",
+      });
     }
 
-    const {originalname,mimeType, buffer} = req.file;
-     
-    logger.info(`File details: originalName: ${originalname} type: ${mimeType}`);
-    logger.info(`uploading to cloudinary starting...`);
-    
-    const result = await uploadonCloudinay(req.file);
-    
-    logger.info(`cloudinary upload successfully. public ID: ${result.public_id}`);
+    const { originalname, mimetype, buffer } = req.file;
 
-
-
-    const { title, description, category,} = req.body;
-     
-    console.log("req.user:",req.user);
+    logger.info(`File details: originalName: ${originalname}, type: ${mimetype}`);
+    logger.info(`Uploading cover image to Cloudinary...`);
     
+    const coverImageResult = await uploadonCloudinay(req.file);
+
+    logger.info(`Cover image uploaded successfully. Cloudinary public ID: ${coverImageResult.public_id}`);
+
+    const { title, description, category, content } = req.body;
     const authorId = req.user.userId;
+
+    logger.info(`Encrypting and uploading book content to Cloudinary...`);
+    const contentFileUrl = await encryptAndUploadContent(content, title.replace(/\s+/g, '_').toLowerCase());
+    logger.info(`Book content uploaded successfully.`);
 
     const newBook = new Book({
       title,
       authorId,
-      coverImage: result.secure_url,
+      coverImage: coverImageResult.secure_url,
       description,
+      content: contentFileUrl, // encrypted file URL
       category,
     });
 
@@ -69,7 +68,98 @@ import { bookValidation} from '../utils/validation.js';
   }
 };
 
+//__________________(fetch all books)___________________
+
+const getAllBooks = async (req, res) => {
+  logger.info("Fetching all books...");
+
+  try {
+    const books = await Book.find();
+    logger.info("Books fetched successfully", { count: books.length });
+
+    return res.status(200).json({
+      success: true,
+      message: "Books fetched successfully",
+      books,
+    });
+  } catch (error) {
+    logger.error("Error while fetching books", error);
+    return res.status(500).json({
+      success: false,
+      message: "Internal server error",
+    });
+  }
+};
+
+
+//_____________________(get book by ID)______________
+
+const getBookById = async (req, res) => {
+  logger.info(`GetBook by Id is hitting...`);
+
+
+  const { id } = req.params;
+
+
+  try {
+    const book = await Book.findById(id);
+    if (!book) {
+      logger.warn("Book not found", { bookId: id });
+      return res.status(404).json({
+        success: false,
+        message: "Book not found",
+      });
+    }
+
+    logger.info("Book fetched successfully", { bookId: book._id });
+
+    return res.status(200).json({
+      success: true,
+      message: "Book fetched successfully",
+      book,
+    });
+  } catch (error) {
+    logger.error("Error while fetching book", error);
+    return res.status(500).json({
+      success: false,
+      message: "Internal server error",
+    });
+  }
+};
+
+
+//________________(delete book by id)________________
+
+const deleteBookById = async (req, res) => {
+  const { id } = req.params;
+
+  logger.info(`Deleting book with ID: ${id}`);
+
+  try {
+    const book = await Book.findByIdAndDelete(id);
+    if (!book) {
+      logger.warn("Book not found", { bookId: id });
+      return res.status(404).json({
+        success: false,
+        message: "Book not found",
+      });
+    }
+
+    logger.info("Book deleted successfully", { bookId: book._id });
+
+    return res.status(200).json({
+      success: true,
+      message: "Book deleted successfully",
+    });
+  } catch (error) {
+    logger.error("Error while deleting book", error);
+    return res.status(500).json({
+      success: false,
+      message: "Internal server error",
+    });
+  }
+};
 
 
 
-export {createBook};
+export { createBook,getAllBooks,deleteBookById,getBookById };
