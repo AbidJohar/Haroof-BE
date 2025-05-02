@@ -10,44 +10,69 @@ import RefreshToken from "../models/refreshTokenModel.js";
 // ________________(User Registration)__________________
 
 const userRegistration = async (req, res) => {
-  logger.info("Registration Endpoint is hitting");
+  logger.info("Registration endpoint hit..");
 
   try {
+    // Validate input
     const { error } = registrationValidation(req.body);
     if (error) {
-      logger.warn("Validation error", error.details[0].message);
+      logger.warn(`Validation error: ${error.details[0].message}`);
       return res.status(400).json({
         success: false,
         message: error.details[0].message,
       });
     }
 
+    // Sanitize inputs
     const { fullName, email, password } = req.body;
 
-    let user = await User.findOne({ email });
-    if (user) {
-      logger.warn("User already exists", { email });
+    // Check for existing user
+    const existingUser = await User.findOne({ email });
+    if (existingUser) {
+      logger.info(`Registration attempt with existing email`);
       return res.status(409).json({
         success: false,
-        message: "User already exists",
+        message: "This email is already registered",
       });
     }
-    user = new User({ fullName, email, password });
+
+    // Create new user (password will be hashed by pre-save hook)
+    const user = new User({
+      fullName,
+      email,
+      password,
+    });
     await user.save();
-    logger.warn("user created successfully", user._id);
+    logger.info(`User created successfully: ${user._id}`);
 
     const { accessToken, refreshToken } = await generateToken(user);
 
-    return res.status(200).json({
+    // Set tokens in HTTP-only cookies
+    res.cookie("accessToken", accessToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
+      maxAge: 40 * 60 * 1000, // 40 minutes
+    });
+    res.cookie("refreshToken", refreshToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
+      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+    });
+
+    return res.status(201).json({
       success: true,
       message: "User registered successfully",
-      accessToken,
-      refreshToken,
+      user: {
+        id: user._id,
+        fullName: user.fullName,
+        email: user.email,
+      },
     });
   } catch (error) {
-    logger.error("Error during registration", error);
-
-    res.status(500).json({
+    logger.error(`Error during registration: ${error.message}`);
+    return res.status(500).json({
       success: false,
       message: "Internal server error",
     });
@@ -75,29 +100,44 @@ const login = async (req, res) => {
     const user = await User.findOne({ email });
 
     if (!user) {
-        logger.warn("Invalid user");
-        return res.status(400).json({
-            message: false,
-            message: "User doesn't exist",
-        });
+      logger.warn("Invalid user");
+      return res.status(400).json({
+        message: false,
+        message: "User doesn't exist",
+      });
     }
     const isPassValid = await user.comparePassword(password);
-    
+
     if (!isPassValid) {
-        logger.warn("Invalid user");
+      logger.warn("Invalid user");
       return res.status(400).json({
         success: false,
         message: "password is incorrect",
       });
     }
-    const {refreshToken, accessToken} = await generateToken(user);
+    const { refreshToken, accessToken } = await generateToken(user);
+
+    // Set tokens in HTTP-only cookies
+    res.cookie("accessToken", accessToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
+      maxAge: 40 * 60 * 1000, // 40 minutes
+    });
+    res.cookie("refreshToken", refreshToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
+      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+    });
 
     res.status(200).json({
-        success: true,
-        userId : user._id,
-        accessToken,
-        refreshToken,
-       
+      success: true,
+      user: {
+        id: user._id,
+        fullName: user.fullName,
+        email: user.email,
+      },
     });
   } catch (error) {
     logger.error("Error during login", error);
@@ -115,7 +155,7 @@ const logout = async (req, res) => {
   logger.info("logoutController endpoint is hitting...");
 
   try {
-    const { refreshToken } = req.body;
+    const { refreshToken } = req.cookies;
 
     if (!refreshToken) {
       logger.warn("Refresh token is missing in logout");
@@ -125,9 +165,19 @@ const logout = async (req, res) => {
       });
     }
 
-
     // Delete the refresh token from the database
-    await RefreshToken.deleteOne({token: refreshToken });
+    await RefreshToken.deleteOne({ token: refreshToken });
+
+    res.clearCookie("accessToken", {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
+    });
+    res.clearCookie("refreshToken", {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
+    });
 
     logger.info("Refresh token deleted for logged out");
 
@@ -135,7 +185,6 @@ const logout = async (req, res) => {
       success: true,
       message: "User successfully logged out",
     });
-
   } catch (error) {
     logger.error("Error during logout process", error);
     res.status(500).json({
@@ -145,18 +194,14 @@ const logout = async (req, res) => {
   }
 };
 
-
 // ________________(Refresh Token)__________________
- 
-const refreshTokenFunc  = async (req,res)=>{
 
+const refreshTokenFunc = async (req, res) => {
   logger.info("refreshTokenFunc endpoint is hitting...");
 
   try {
-   
-    const {refreshToken} = req.body;
-
-    if(!refreshToken){
+    const { refreshToken } = req.cookies;
+    if (!refreshToken) {
       logger.warn("Refresh token is missing");
       return res.status(400).json({
         success: false,
@@ -164,41 +209,47 @@ const refreshTokenFunc  = async (req,res)=>{
       });
     }
 
-  const storedToken = await RefreshToken.findOne({token: refreshToken});
+    const storedToken = await RefreshToken.findOne({ token: refreshToken });
 
-  if(!storedToken || storedToken.expiresAt < new Date()){
-    logger.warn("Invalid or expired refresh token");
-    
-    return res.status(401).json({
-      success: false,
-      message: "invalid or expired refresh token"
-    })
+    if (!storedToken || storedToken.expiresAt < new Date()) {
+      logger.warn("Invalid or expired refresh token");
 
-  }
+      return res.status(401).json({
+        success: false,
+        message: "invalid or expired refresh token",
+      });
+    }
 
-  const user = await User.findById(storedToken.user);
+    const user = await User.findById(storedToken.user);
 
-  if(!user){
-    logger.warn("user not found");
-    
-    return res.status(401).json({
-      success: false,
-      message: "user not found"
-    })
-  }
+    if (!user) {
+      logger.warn("user not found");
 
-  const {accessToken : newAccessToken, refreshToken: newRefreshToken} = await generateToken(user);
-  
-  // now delete the old refresh token
-   await RefreshToken.deleteOne({_id: storedToken._id})
+      return res.status(401).json({
+        success: false,
+        message: "user not found",
+      });
+    }
 
- return  res.json({
-    success: true,
-    accessToken: newAccessToken,
-    refreshToken: newRefreshToken
-  })
-    
-  }  catch (error) {
+
+    const { accessToken: newAccessToken, refreshToken: newRefreshToken } =
+      await generateToken(user);
+
+      res.cookie("accessToken", newAccessToken, { httpOnly: true, secure: process.env.NODE_ENV === "production", sameSite: "strict", maxAge: 40 * 60 * 1000 });
+      res.cookie("refreshToken", newRefreshToken, { httpOnly: true, secure: process.env.NODE_ENV === "production", sameSite: "strict", maxAge: 7 * 24 * 60 * 60 * 1000 });
+
+    // now delete the old refresh token
+    await RefreshToken.deleteOne({ _id: storedToken._id });
+
+    return res.json({
+      success: true,
+      user: {
+        id: user._id,
+        fullName: user.fullName,
+        email: user.email,
+      },
+    });
+  } catch (error) {
     logger.error("Error during refreshing new Token", error);
 
     res.status(500).json({
@@ -206,8 +257,6 @@ const refreshTokenFunc  = async (req,res)=>{
       message: "Internal server error",
     });
   }
-
-}
-
+};
 
 export { userRegistration, login, refreshTokenFunc, logout };

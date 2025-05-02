@@ -411,3 +411,318 @@
 {"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-01T10:28:10.957Z"}
 {"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-01T10:28:10.961Z"}
 {"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-01T10:28:11.183Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-01T11:14:55.511Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-01T11:14:57.655Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-01T11:15:25.254Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-01T11:15:25.916Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-01T11:15:28.379Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-01T11:19:08.765Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-01T11:19:08.771Z"}
+{"0":"P","1":"a","10":"u","11":"s","12":"t","13":" ","14":"b","15":"e","16":" ","17":"a","18":"t","19":" ","2":"s","20":"l","21":"e","22":"a","23":"s","24":"t","25":" ","26":"6","27":" ","28":"c","29":"h","3":"s","30":"a","31":"r","32":"a","33":"c","34":"t","35":"e","36":"r","37":"s","38":" ","39":"l","4":"w","40":"o","41":"n","42":"g","43":".","5":"o","6":"r","7":"d","8":" ","9":"m","level":"warn","message":"validation error during login","service":"user-service","timestamp":"2025-05-01T11:19:08.795Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-01T11:22:07.703Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-01T11:22:07.707Z"}
+{"0":"P","1":"a","10":"u","11":"s","12":"t","13":" ","14":"b","15":"e","16":" ","17":"a","18":"t","19":" ","2":"s","20":"l","21":"e","22":"a","23":"s","24":"t","25":" ","26":"6","27":" ","28":"c","29":"h","3":"s","30":"a","31":"r","32":"a","33":"c","34":"t","35":"e","36":"r","37":"s","38":" ","39":"l","4":"w","40":"o","41":"n","42":"g","43":".","5":"o","6":"r","7":"d","8":" ","9":"m","level":"warn","message":"validation error during login","service":"user-service","timestamp":"2025-05-01T11:22:07.710Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-01T11:29:47.276Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-01T11:29:47.278Z"}
+{"0":"P","1":"a","10":"u","11":"s","12":"t","13":" ","14":"b","15":"e","16":" ","17":"a","18":"t","19":" ","2":"s","20":"l","21":"e","22":"a","23":"s","24":"t","25":" ","26":"6","27":" ","28":"c","29":"h","3":"s","30":"a","31":"r","32":"a","33":"c","34":"t","35":"e","36":"r","37":"s","38":" ","39":"l","4":"w","40":"o","41":"n","42":"g","43":".","5":"o","6":"r","7":"d","8":" ","9":"m","level":"warn","message":"validation error during login","service":"user-service","timestamp":"2025-05-01T11:29:47.282Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-01T11:30:04.647Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-01T11:30:04.650Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-01T11:30:04.817Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-01T11:31:48.959Z"}
+{"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-05-01T11:31:48.962Z"}
+{"0":"F","1":"u","10":"i","11":"s","12":" ","13":"r","14":"e","15":"q","16":"u","17":"i","18":"r","19":"e","2":"l","20":"d","21":".","3":"l","4":" ","5":"n","6":"a","7":"m","8":"e","9":" ","level":"warn","message":"Validation error","service":"user-service","timestamp":"2025-05-01T11:31:48.966Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-01T11:32:43.637Z"}
+{"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-05-01T11:32:43.641Z"}
+{"buffer":{"data":[104,19,91,219,142,39,84,146,46,203,202,146],"type":"Buffer"},"level":"warn","message":"user created successfully","service":"user-service","timestamp":"2025-05-01T11:32:44.045Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-01T11:32:44.046Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-01T11:32:54.353Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-01T11:32:54.356Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-01T11:32:54.587Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:20:45.625Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.1fsor8r.mongodb.net","level":"error","message":"mongdb connection failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.1fsor8r.mongodb.net","service":"user-service","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.1fsor8r.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv","timestamp":"2025-05-02T05:20:45.641Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:21:12.612Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T05:21:14.089Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:23:07.576Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:23:09.786Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T05:23:11.102Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:23:15.783Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T05:23:17.354Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:23:19.254Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T05:23:20.911Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T05:23:24.882Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T05:23:24.885Z"}
+{"0":"P","1":"a","10":"u","11":"s","12":"t","13":" ","14":"b","15":"e","16":" ","17":"a","18":"t","19":" ","2":"s","20":"l","21":"e","22":"a","23":"s","24":"t","25":" ","26":"6","27":" ","28":"c","29":"h","3":"s","30":"a","31":"r","32":"a","33":"c","34":"t","35":"e","36":"r","37":"s","38":" ","39":"l","4":"w","40":"o","41":"n","42":"g","43":".","5":"o","6":"r","7":"d","8":" ","9":"m","level":"warn","message":"validation error during login","service":"user-service","timestamp":"2025-05-02T05:23:24.898Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T05:23:31.689Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T05:23:31.692Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T05:23:31.965Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T05:24:58.452Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T05:24:58.454Z"}
+{"0":"P","1":"a","10":"u","11":"s","12":"t","13":" ","14":"b","15":"e","16":" ","17":"a","18":"t","19":" ","2":"s","20":"l","21":"e","22":"a","23":"s","24":"t","25":" ","26":"6","27":" ","28":"c","29":"h","3":"s","30":"a","31":"r","32":"a","33":"c","34":"t","35":"e","36":"r","37":"s","38":" ","39":"l","4":"w","40":"o","41":"n","42":"g","43":".","5":"o","6":"r","7":"d","8":" ","9":"m","level":"warn","message":"validation error during login","service":"user-service","timestamp":"2025-05-02T05:24:58.456Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T05:25:09.737Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T05:25:09.739Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T05:25:09.941Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T05:27:15.287Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T05:27:15.289Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T05:27:15.592Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T05:29:11.043Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T05:29:11.046Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T05:29:11.299Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-02T05:30:46.044Z"}
+{"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-05-02T05:30:46.045Z"}
+{"email":"abid@gmail.com","level":"warn","message":"User already exists","service":"user-service","timestamp":"2025-05-02T05:30:46.237Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:31:14.909Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T05:31:17.060Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:31:17.685Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:31:19.661Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:31:21.050Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T05:31:22.283Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:31:26.810Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T05:31:28.329Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-02T05:31:28.979Z"}
+{"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-05-02T05:31:28.983Z"}
+{"email":"abid@gmail.com","level":"warn","message":"User already exists","service":"user-service","timestamp":"2025-05-02T05:31:29.131Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-02T05:31:39.877Z"}
+{"level":"info","message":"Registration Endpoint is hitting","service":"user-service","timestamp":"2025-05-02T05:31:39.881Z"}
+{"buffer":{"data":[104,20,88,188,87,12,199,131,67,30,84,70],"type":"Buffer"},"level":"warn","message":"user created successfully","service":"user-service","timestamp":"2025-05-02T05:31:40.307Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T05:31:40.309Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T05:36:01.108Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T05:36:01.111Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T05:36:01.422Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:48:51.269Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:48:53.257Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T05:48:54.146Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T05:48:55.339Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:02:07.524Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:02:09.482Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:02:21.639Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:02:22.733Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:02:30.159Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:02:31.913Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:02:32.766Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:02:34.367Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:02:36.511Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:02:38.058Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:02:46.700Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:02:48.503Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:03:07.550Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:03:09.493Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:03:10.342Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:03:11.646Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:03:15.729Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:03:17.277Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:03:34.469Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:03:36.126Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:03:37.199Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:03:38.886Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:03:50.858Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:03:52.111Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:03:55.994Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:03:57.421Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:03:57.978Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:03:59.113Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:05:08.450Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:05:10.794Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:05:12.201Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:05:13.298Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:05:14.712Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:20:36.046Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:20:38.248Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:20:43.131Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:20:44.930Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:20:48.240Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:20:49.748Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:20:51.002Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:20:52.213Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T06:21:07.886Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T06:21:09.525Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:08:39.097Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:08:41.961Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:08:51.553Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:08:54.484Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:09:14.151Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:09:15.042Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:09:17.700Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:09:35.567Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:09:38.289Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:09:42.347Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:09:47.419Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:09:48.900Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:09:51.450Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:10:44.324Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:10:45.027Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:10:49.494Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:11:30.305Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:11:33.489Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:11:40.137Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:11:42.395Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:12:32.486Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:12:34.831Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:12:52.629Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:12:55.051Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:12:57.183Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:12:58.961Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:13:00.470Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:13:02.891Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:13:05.039Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:14:40.172Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:14:42.415Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:14:43.426Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:14:45.045Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:15:00.290Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:15:03.206Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:15:10.575Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:15:12.296Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:15:14.373Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:15:42.314Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:15:44.505Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:15:49.136Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:15:51.895Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:16:19.677Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:16:21.848Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:16:24.582Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T09:16:25.950Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T09:16:28.089Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T09:42:32.452Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T09:42:32.460Z"}
+{"0":"P","1":"a","10":"u","11":"s","12":"t","13":" ","14":"b","15":"e","16":" ","17":"a","18":"t","19":" ","2":"s","20":"l","21":"e","22":"a","23":"s","24":"t","25":" ","26":"6","27":" ","28":"c","29":"h","3":"s","30":"a","31":"r","32":"a","33":"c","34":"t","35":"e","36":"r","37":"s","38":" ","39":"l","4":"w","40":"o","41":"n","42":"g","43":".","5":"o","6":"r","7":"d","8":" ","9":"m","level":"warn","message":"validation error during login","service":"user-service","timestamp":"2025-05-02T09:42:32.491Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-02T09:44:21.082Z"}
+{"level":"info","message":"Registration endpoint hit..","service":"user-service","timestamp":"2025-05-02T09:44:21.087Z"}
+{"level":"info","message":"User created successfully: 681493f5295ec315f189e96d","service":"user-service","timestamp":"2025-05-02T09:44:21.747Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T09:44:21.749Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T09:45:22.971Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T09:45:22.975Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T09:45:23.272Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:00:29.020Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.1fsor8r.mongodb.net","level":"error","message":"mongdb connection failed querySrv ECONNREFUSED _mongodb._tcp.cluster0.1fsor8r.mongodb.net","service":"user-service","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.1fsor8r.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:275:17)","syscall":"querySrv","timestamp":"2025-05-02T11:00:29.040Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:01:00.374Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T11:01:02.948Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:10:33.053Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:10:33.060Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-02T11:10:33.215Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:10:37.855Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:10:37.859Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-02T11:10:37.981Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:10:40.506Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:10:40.508Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-02T11:10:40.628Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-02T11:11:05.091Z"}
+{"level":"info","message":"Registration endpoint hit..","service":"user-service","timestamp":"2025-05-02T11:11:05.095Z"}
+{"level":"info","message":"User created successfully: 6814a849db9d6a371bfc0636","service":"user-service","timestamp":"2025-05-02T11:11:05.727Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:11:05.729Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:11:24.881Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:11:24.884Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-02T11:11:25.135Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:12:55.783Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:12:55.786Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-02T11:12:55.997Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:13:30.061Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:13:30.062Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:13:30.268Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:22:11.558Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:22:11.562Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:22:11.788Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:23:06.793Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T11:23:09.563Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:23:45.756Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T11:23:48.134Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:23:58.183Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T11:24:00.621Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:24:03.992Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:24:05.409Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T11:24:06.945Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:24:15.417Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:24:15.421Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:24:15.656Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh ","service":"user-service","timestamp":"2025-05-02T11:24:32.785Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:30:23.065Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:30:23.068Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:30:23.318Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T11:36:07.827Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:36:07.830Z"}
+{"level":"error","message":"Error during refreshing new Token Cannot destructure property 'refreshToken' of 'req.cookies' as it is undefined.","service":"user-service","stack":"TypeError: Cannot destructure property 'refreshToken' of 'req.cookies' as it is undefined.\n    at refreshTokenFunc (file:///C:/Users/PMLS/OneDrive/Desktop/harof-BE/services/user-service/src/controllers/authController.js:203:13)\n    at Layer.handleRequest (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\PMLS\\OneDrive\\Desktop\\harof-BE\\services\\user-service\\node_modules\\router\\index.js:186:3)","timestamp":"2025-05-02T11:36:07.831Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:36:20.697Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:36:20.700Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:36:20.951Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:39:14.112Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T11:39:16.759Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:39:54.168Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:39:55.548Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T11:39:57.331Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-02T11:40:56.148Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:40:56.152Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-02T11:40:56.286Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-02T11:41:08.103Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-02T11:41:08.105Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:41:08.353Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T11:41:11.390Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:41:11.395Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:41:11.658Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T11:41:13.002Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:41:13.006Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:41:13.268Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T11:41:14.521Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:41:14.524Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:41:14.780Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T11:41:15.853Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:41:15.854Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:41:16.107Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T11:41:17.256Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:41:17.259Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:41:17.522Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T11:41:19.601Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:41:19.602Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:41:19.854Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T11:41:20.885Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:41:20.887Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:41:21.145Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-02T11:48:55.605Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:48:55.608Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-02T11:48:55.743Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:49:24.342Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:49:25.306Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T11:49:27.680Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T11:49:47.784Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T11:49:49.731Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-02T11:51:45.189Z"}
+{"level":"info","message":"Registration endpoint hit..","service":"user-service","timestamp":"2025-05-02T11:51:45.193Z"}
+{"level":"warn","message":"Validation error: Password must be at least 6 characters long.","service":"user-service","timestamp":"2025-05-02T11:51:45.221Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-02T11:51:51.022Z"}
+{"level":"info","message":"Registration endpoint hit..","service":"user-service","timestamp":"2025-05-02T11:51:51.027Z"}
+{"level":"info","message":"User created successfully: 6814b1d760f0fef6499d71d1","service":"user-service","timestamp":"2025-05-02T11:51:51.394Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:51:51.395Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T11:51:56.006Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:51:56.010Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:51:56.306Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T11:53:52.274Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T11:53:52.276Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T11:53:52.666Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T12:03:14.889Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T12:03:14.892Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T12:03:15.334Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T12:18:14.146Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T12:18:19.816Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T12:18:20.969Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T12:18:23.631Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T12:18:28.013Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T12:18:30.404Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T12:18:32.203Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T12:18:34.054Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T12:18:37.662Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T12:18:39.568Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T12:18:46.667Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T12:18:47.524Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T12:18:49.232Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-02T12:18:54.849Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-02T12:18:57.076Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T12:18:59.647Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T12:18:59.650Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T12:18:59.916Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T12:19:01.294Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T12:19:01.297Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T12:19:01.563Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T12:19:03.019Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T12:19:03.023Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T12:19:03.304Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-02T12:19:24.310Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-02T12:19:24.313Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-02T12:19:24.727Z"}

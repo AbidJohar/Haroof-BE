@@ -7,6 +7,7 @@ import { rateLimit } from 'express-rate-limit';
 import { RedisStore } from 'rate-limit-redis';
 import logger from './utils/logger.js';
 import proxy from 'express-http-proxy';
+import cookieParser from 'cookie-parser';
 import errorHandler from './middlewares/errorHandler.js';
 import validateToken from './middlewares/validateToken.js';
 
@@ -18,9 +19,15 @@ const redisClient = new Redis(process.env.REDIS_URL);
 
 //________________________( middlewares )_______________________
 app.use(helmet());
-app.use(cors());
+app.use(cookieParser());
+app.use(cors({
+    origin: 'http://localhost:5173', // Specify the exact origin
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  }));
 
-// ✅ Conditionally skip JSON parsing for multipart requests
+// Conditionally skip JSON parsing for multipart requests
 app.use((req, res, next) => {
     const contentType = req.headers['content-type'] || '';
     if (contentType.startsWith('multipart/form-data')) {
@@ -29,7 +36,7 @@ app.use((req, res, next) => {
     express.json()(req, res, next);
 });
 
-// ✅ Smart logging: log body only if JSON
+// Smart logging: log body only if JSON
 app.use((req, res, next) => {
     logger.info(`Received ${req.method} request to ${req.url}`);
     const contentType = req.headers['content-type'] || '';

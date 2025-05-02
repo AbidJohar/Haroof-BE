@@ -5,7 +5,7 @@ const router = express.Router();
 
 
 
-router.post('/register', userRegistration);
+router.post('/signup', userRegistration);
 router.post('/login', login);
 router.post('/logout', logout);
 router.post('/refresh-Token', refreshTokenFunc);

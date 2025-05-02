@@ -321,3 +321,203 @@
 {"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-01T10:45:55.098Z"}
 {"level":"info","message":"Received DELETE request to /v1/books/deletebook/6813493d4cb4dbe59e3736c5","service":"api_gateway","timestamp":"2025-05-01T10:49:10.515Z"}
 {"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-01T10:49:10.648Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-01T11:14:39.145Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-01T11:14:39.148Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-01T11:14:39.149Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-01T11:14:39.149Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"api_gateway","timestamp":"2025-05-01T11:15:37.021Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"51214\"}","service":"api_gateway","timestamp":"2025-05-01T11:15:37.022Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"api_gateway","timestamp":"2025-05-01T11:16:11.283Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"51214\"}","service":"api_gateway","timestamp":"2025-05-01T11:16:11.284Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-01T11:19:08.697Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"51214\"}","service":"api_gateway","timestamp":"2025-05-01T11:19:08.698Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-01T11:19:08.800Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-01T11:22:07.692Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"51214\"}","service":"api_gateway","timestamp":"2025-05-01T11:22:07.694Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-01T11:22:07.715Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-01T11:29:47.272Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"51214\"}","service":"api_gateway","timestamp":"2025-05-01T11:29:47.273Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-01T11:29:47.286Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-01T11:30:04.638Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-01T11:30:04.640Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-01T11:30:04.821Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-01T11:31:48.945Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\",\"username\":\"abid\"}","service":"api_gateway","timestamp":"2025-05-01T11:31:48.946Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-01T11:31:48.976Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-01T11:32:43.566Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\",\"fullName\":\"abid\"}","service":"api_gateway","timestamp":"2025-05-01T11:32:43.567Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-01T11:32:44.244Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-01T11:32:54.344Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-01T11:32:54.346Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-01T11:32:54.803Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-02T05:20:23.152Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-02T05:20:23.155Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-02T05:20:23.155Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-02T05:20:23.156Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T05:23:24.854Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"51214\"}","service":"api_gateway","timestamp":"2025-05-02T05:23:24.855Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-02T05:23:24.904Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T05:23:31.680Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T05:23:31.681Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T05:23:32.170Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T05:24:58.449Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"51214\"}","service":"api_gateway","timestamp":"2025-05-02T05:24:58.450Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-02T05:24:58.459Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T05:25:09.730Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T05:25:09.730Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T05:25:10.163Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T05:27:15.284Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T05:27:15.285Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T05:27:15.805Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T05:29:11.039Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T05:29:11.039Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T05:29:11.520Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-02T05:30:46.038Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\",\"fullName\":\"Hussain\"}","service":"api_gateway","timestamp":"2025-05-02T05:30:46.038Z"}
+{"level":"info","message":"Response received from user-service: 409","service":"api_gateway","timestamp":"2025-05-02T05:30:46.239Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-02T05:31:28.952Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\",\"fullName\":\"Hussain\"}","service":"api_gateway","timestamp":"2025-05-02T05:31:28.953Z"}
+{"level":"info","message":"Response received from user-service: 409","service":"api_gateway","timestamp":"2025-05-02T05:31:29.135Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-02T05:31:39.870Z"}
+{"level":"info","message":"Request body: {\"email\":\"hussain@gmail.com\",\"password\":\"123456\",\"fullName\":\"Hussain\"}","service":"api_gateway","timestamp":"2025-05-02T05:31:39.870Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T05:31:40.431Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T05:36:01.104Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T05:36:01.104Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T05:36:01.631Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-02T09:32:15.089Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-02T09:32:15.091Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-02T09:32:15.092Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-02T09:32:15.093Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T09:42:32.390Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"51214\"}","service":"api_gateway","timestamp":"2025-05-02T09:42:32.391Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-02T09:42:32.497Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-02T09:44:21.071Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"hassan\",\"email\":\"hassan@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T09:44:21.072Z"}
+{"level":"info","message":"Response received from user-service: 201","service":"api_gateway","timestamp":"2025-05-02T09:44:22.050Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T09:45:22.958Z"}
+{"level":"info","message":"Request body: {\"email\":\"hassan@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T09:45:22.959Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T09:45:23.489Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-02T11:00:44.057Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-02T11:00:44.060Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-02T11:00:44.060Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-02T11:00:44.061Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:10:32.993Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:10:32.993Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-02T11:10:33.224Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:10:37.850Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:10:37.851Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-02T11:10:37.983Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:10:40.502Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:10:40.502Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-02T11:10:40.630Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-02T11:11:05.081Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"Hussain\",\"email\":\"Hussain@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:11:05.082Z"}
+{"level":"info","message":"Response received from user-service: 201","service":"api_gateway","timestamp":"2025-05-02T11:11:05.938Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:11:24.875Z"}
+{"level":"info","message":"Request body: {\"email\":\"Hussain@gmail.com\",\"password\":\"1234567\"}","service":"api_gateway","timestamp":"2025-05-02T11:11:24.875Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-02T11:11:25.136Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:12:55.774Z"}
+{"level":"info","message":"Request body: {\"email\":\"Hussain@gmail.com\",\"password\":\"1234567\"}","service":"api_gateway","timestamp":"2025-05-02T11:12:55.775Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-02T11:12:55.998Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:13:30.053Z"}
+{"level":"info","message":"Request body: {\"email\":\"Hussain@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:13:30.057Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:13:30.410Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-02T11:21:07.370Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-02T11:21:07.374Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-02T11:21:07.375Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-02T11:21:07.376Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-02T11:21:46.406Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-02T11:21:46.408Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-02T11:21:46.409Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-02T11:21:46.409Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-02T11:21:48.484Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-02T11:21:48.487Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-02T11:21:48.488Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-02T11:21:48.488Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-02T11:21:49.356Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-02T11:21:49.359Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-02T11:21:49.360Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-02T11:21:49.360Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:22:11.541Z"}
+{"level":"info","message":"Request body: {\"email\":\"hussain@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:22:11.542Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:22:12.009Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-02T11:23:15.856Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-02T11:23:15.858Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-02T11:23:15.859Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-02T11:23:15.859Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:24:15.381Z"}
+{"level":"info","message":"Request body: {\"email\":\"hussain@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:24:15.381Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:24:15.800Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh","service":"api_gateway","timestamp":"2025-05-02T11:24:32.774Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:24:32.775Z"}
+{"level":"info","message":"Response received from user-service: 404","service":"api_gateway","timestamp":"2025-05-02T11:24:32.794Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:30:22.991Z"}
+{"level":"info","message":"Request body: {\"email\":\"hussain@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:30:22.992Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:30:23.545Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T11:36:07.820Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:36:07.821Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-02T11:36:07.836Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:36:20.693Z"}
+{"level":"info","message":"Request body: {\"email\":\"hussain@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:36:20.694Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:36:21.086Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-02T11:40:51.506Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-02T11:40:51.509Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-02T11:40:51.509Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-02T11:40:51.510Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout","service":"api_gateway","timestamp":"2025-05-02T11:40:56.120Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:40:56.121Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:40:56.293Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-02T11:41:08.097Z"}
+{"level":"info","message":"Request body: {\"email\":\"hussain@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:41:08.098Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:41:08.499Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T11:41:11.377Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:41:11.378Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:41:11.926Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T11:41:12.987Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:41:12.989Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:41:13.533Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T11:41:14.516Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:41:14.516Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:41:15.047Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T11:41:15.847Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:41:15.848Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:41:16.373Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T11:41:17.250Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:41:17.251Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:41:17.788Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T11:41:19.595Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:41:19.596Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:41:20.113Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T11:41:20.880Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:41:20.881Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:41:21.416Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout","service":"api_gateway","timestamp":"2025-05-02T11:48:55.596Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:48:55.597Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:48:55.747Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-02T11:51:45.148Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"zaman\",\"email\":\"zaman@gmail.com\",\"password\":\"12345\"}","service":"api_gateway","timestamp":"2025-05-02T11:51:45.149Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-02T11:51:45.224Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-02T11:51:51.011Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"zaman\",\"email\":\"zaman@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-02T11:51:51.011Z"}
+{"level":"info","message":"Response received from user-service: 201","service":"api_gateway","timestamp":"2025-05-02T11:51:51.540Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T11:51:55.999Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:51:56.000Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:51:56.581Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T11:53:52.263Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T11:53:52.266Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T11:53:53.085Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T12:03:14.883Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T12:03:14.884Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T12:03:15.757Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T12:18:59.616Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T12:18:59.617Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T12:19:00.199Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T12:19:01.288Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T12:19:01.289Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T12:19:01.832Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T12:19:03.013Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T12:19:03.014Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T12:19:03.570Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T12:19:24.301Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T12:19:24.302Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T12:19:25.145Z"}

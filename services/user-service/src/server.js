@@ -6,6 +6,7 @@ import helmet from 'helmet'
 import logger from './utils/logger.js';
 import {RateLimiterRedis} from 'rate-limiter-flexible';
 import Redis from 'ioredis';
+import cookieParser from 'cookie-parser';
 import {rateLimit} from 'express-rate-limit';
 import {RedisStore} from 'rate-limit-redis';
 import route from './routes/userRoutes.js';
@@ -34,9 +35,15 @@ const redisClient = new Redis(process.env.REDIS_URL);
 
 //_______________( Middleware )____________________
 app.use(helmet());
+app.use(cookieParser());
 app.use(express.json());  // To parse JSON request bodies
 app.use(express.urlencoded({ extended: true }));  // To parse URL-encoded data
-app.use(cors());  // Enable CORS for all routes (modify if needed)
+app.use(cors({
+    origin: 'http://localhost:5173', // Specify the exact origin
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  }));   
 
 
 
