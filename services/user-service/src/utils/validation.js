@@ -15,7 +15,6 @@ const registrationValidation = (data) => {
       "string.empty": "Email cannot be empty.",
       "any.required": "Email is required.",
     }),
-
     password: Joi.string().min(6).required().messages({
       "string.empty": "Password cannot be empty.",
       "string.min": "Password must be at least 6 characters long.",

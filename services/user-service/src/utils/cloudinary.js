@@ -1,10 +1,11 @@
 import  {v2 as cloudinary} from 'cloudinary';
 import logger from '../utils/logger.js'
 
+
 cloudinary.config({ 
-    cloud_name:process.env.CLOUDINARY_NAME, 
-    api_key:process.env.CLOUDINARY_APIKEY,
-    api_secret:process.env.CLOUDINARY_SECRET 
+    cloud_name:'dviujdzme', 
+    api_key:337159456378228,
+    api_secret:'wnOyKnxb1XYYhZLm7v5IrjsRb7s' 
 });
   
 

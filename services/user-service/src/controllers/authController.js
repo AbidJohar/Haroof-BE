@@ -6,6 +6,7 @@ import {
 import User from "../models/userModel.js";
 import generateToken from "../utils/generateToken.js";
 import RefreshToken from "../models/refreshTokenModel.js";
+import { uploadonCloudinay } from "../utils/cloudinary.js";
 
 // ________________(User Registration)__________________
 
@@ -259,4 +260,72 @@ const refreshTokenFunc = async (req, res) => {
   }
 };
 
-export { userRegistration, login, refreshTokenFunc, logout };
+ //_______________(upload profile picture )_________________
+
+const uploadPhoto = async (req, res) => {
+    logger.info("Upload photo endpoint is hitting...");
+
+    try {
+        if (!req.file) {
+            logger.error("No file found in request");
+            return res.status(400).json({
+                success: false,
+                message: "No file found in request"
+            });
+        }
+
+        // Upload file to Cloudinary
+        logger.info("Uploading file to Cloudinary...");
+        const result = await uploadonCloudinay(req.file);
+        if (!result || !result.secure_url) {
+            logger.error("Cloudinary upload failed: No secure_url returned");
+            return res.status(500).json({
+                success: false,
+                message: "Failed to upload file to Cloudinary"
+            });
+        }
+
+        // Update user profileImage in DB
+        logger.info(`Updating user ${req.user.userId} profile image...`);
+        const user = await User.findByIdAndUpdate(
+            req.user.userId, // Match authMiddleware's req.user.userId
+            { profileImage: result.secure_url },
+            { new: true }
+        ).select('-password');
+
+        if (!user) {
+            logger.error(`User ${req.user.userId} not found`);
+            return res.status(404).json({
+                success: false,
+                message: "User not found"
+            });
+        }
+
+        return res.status(200).json({
+            success: true,
+            message: "Profile image updated successfully",
+            user
+        });
+    } catch (err) {
+        logger.error("Error in uploadPhoto", {
+            message: err.message,
+            stack: err.stack
+        });
+        if (err instanceof multer.MulterError) {
+            return res.status(400).json({
+                success: false,
+                message: "Multer error during file upload",
+                error: err.message
+            });
+        }
+        return res.status(500).json({
+            success: false,
+            message: "Failed to update profile image",
+            error: err.message
+        });
+    }
+};
+
+ 
+
+export { userRegistration, login, refreshTokenFunc, logout,uploadPhoto };

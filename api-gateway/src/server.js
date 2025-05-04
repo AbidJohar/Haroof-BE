@@ -87,6 +87,14 @@ app.use('/v1/auth',
             if (contentType) {
                 proxyReqOpts.headers['Content-Type'] = contentType;
             }
+            // Forward cookies
+            if (srcReq.headers['cookie']) {
+                proxyReqOpts.headers['Cookie'] = srcReq.headers['cookie'];
+            }
+            // Forward multipart/form-data body as-is
+            if (contentType && contentType.startsWith('multipart/form-data')) {
+                proxyReqOpts.body = srcReq.body;
+            }
             return proxyReqOpts;
         },
         userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {

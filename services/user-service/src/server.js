@@ -24,6 +24,13 @@ mongoose.connect(process.env.MONGODB_URI )
   .catch((error) => 
     logger.error("mongdb connection failed", error)
 );
+
+// ________(debug)______
+logger.info('Cloudinary Config:', {
+    cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+    api_key: process.env.CLOUDINARY_API_KEY,
+    api_secret: process.env.CLOUDINARY_API_SECRET ? '****' : undefined
+});
  
 
 // _____________(redis connection)_____________________

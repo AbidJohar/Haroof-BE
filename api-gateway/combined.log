@@ -521,3 +521,184 @@
 {"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-02T12:19:24.301Z"}
 {"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-02T12:19:24.302Z"}
 {"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-02T12:19:25.145Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T11:31:57.917Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T11:31:57.921Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T11:31:57.922Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T11:31:57.922Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-04T11:34:39.516Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"12345\"}","service":"api_gateway","timestamp":"2025-05-04T11:34:39.517Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-04T11:34:40.032Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-04T11:34:44.271Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-04T11:34:44.272Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-04T11:34:44.429Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-04T11:35:04.658Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"abid\",\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-04T11:35:04.661Z"}
+{"level":"info","message":"Response received from user-service: 201","service":"api_gateway","timestamp":"2025-05-04T11:35:05.626Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T11:35:11.282Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T11:35:11.283Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T11:35:11.974Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:13:25.257Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:13:25.259Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:13:25.890Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:13:56.241Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:13:56.241Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:13:56.980Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:13:59.235Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:13:59.235Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:13:59.734Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:14:33.245Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:14:33.246Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:14:34.657Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:14:56.248Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:14:56.248Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:14:56.705Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:14:57.237Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:14:57.237Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:14:57.694Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:15:17.240Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:15:17.241Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:15:18.074Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:15:32.248Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:15:32.249Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:15:33.351Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:15:35.238Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:15:35.238Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:15:35.895Z"}
+{"level":"info","message":"Received PUT request to /v1/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:16:06.373Z"}
+{"level":"info","message":"Received PUT request to /v1/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:17:53.172Z"}
+{"level":"info","message":"Received PUT request to /v1/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:21:21.651Z"}
+{"level":"info","message":"Received PUT request to /v1/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:22:12.595Z"}
+{"level":"info","message":"Received PUT request to /v1/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:23:42.121Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:26:06.251Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:26:06.253Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:26:06.848Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:26:12.088Z"}
+{"level":"info","message":"Response received from user-service: 401","service":"api_gateway","timestamp":"2025-05-04T12:26:12.101Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T12:32:54.529Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T12:32:54.531Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T12:32:54.532Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T12:32:54.532Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T12:32:54.990Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T12:32:54.994Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T12:32:54.994Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T12:32:54.995Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:33:12.783Z"}
+{"level":"error","message":"Error in proxy: Cannot read properties of undefined (reading 'userId')","service":"api_gateway","timestamp":"2025-05-04T12:33:12.791Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T12:37:36.663Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T12:37:36.666Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T12:37:36.666Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T12:37:36.667Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T12:37:40.134Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T12:37:40.137Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T12:37:40.138Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T12:37:40.138Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T12:37:45.545Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T12:37:45.548Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T12:37:45.548Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T12:37:45.549Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-04T12:38:22.678Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-04T12:38:22.679Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:38:23.247Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T12:43:43.026Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T12:43:43.029Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T12:43:43.030Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T12:43:43.030Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T12:43:44.550Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T12:43:44.553Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T12:43:44.554Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T12:43:44.554Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:46:24.086Z"}
+{"level":"info","message":"Response received from user-service: 401","service":"api_gateway","timestamp":"2025-05-04T12:46:24.115Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:51:46.069Z"}
+{"level":"info","message":"Response received from user-service: 401","service":"api_gateway","timestamp":"2025-05-04T12:51:46.091Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:54:08.477Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T12:54:08.495Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T12:58:03.107Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T12:58:03.111Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T12:58:03.111Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T12:58:03.111Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T12:58:20.384Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T12:58:20.386Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T12:58:22.019Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T12:58:26.978Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T12:58:26.993Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T13:04:42.002Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T13:04:42.005Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:04:43.038Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:04:47.277Z"}
+{"level":"error","message":"Error in proxy: read ECONNRESET","service":"api_gateway","timestamp":"2025-05-04T13:11:34.567Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T13:12:14.676Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T13:12:14.679Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:12:15.380Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:12:20.297Z"}
+{"level":"error","message":"Error in proxy: read ECONNRESET","service":"api_gateway","timestamp":"2025-05-04T13:14:39.429Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T13:14:57.620Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T13:14:57.621Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:14:58.624Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:15:02.769Z"}
+{"level":"error","message":"Error in proxy: read ECONNRESET","service":"api_gateway","timestamp":"2025-05-04T13:20:30.460Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T13:24:04.743Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T13:24:04.746Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T13:24:04.746Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T13:24:04.747Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T13:24:21.780Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T13:24:21.781Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T13:24:31.852Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-04T13:24:51.828Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-04T13:24:51.829Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-04T13:24:56.360Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-04T13:24:56.362Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api_gateway","timestamp":"2025-05-04T13:25:01.686Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-04T13:25:01.688Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T13:25:01.875Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T13:25:06.392Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T13:25:11.716Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-04T13:26:57.324Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"hussain\",\"email\":\"hussain@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-04T13:26:57.325Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-04T13:27:01.931Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"hussain\",\"email\":\"hussain@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-04T13:27:01.932Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T13:27:07.345Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T13:27:11.950Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-04T13:29:29.692Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-04T13:29:29.694Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-04T13:29:29.695Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-04T13:29:29.695Z"}
+{"level":"info","message":"Received POST request to /v1/auth/signup","service":"api_gateway","timestamp":"2025-05-04T13:29:51.894Z"}
+{"level":"info","message":"Request body: {\"fullName\":\"abid\",\"email\":\"abid@gmail.com\",\"password\":\"1234567\"}","service":"api_gateway","timestamp":"2025-05-04T13:29:51.895Z"}
+{"level":"info","message":"Response received from user-service: 201","service":"api_gateway","timestamp":"2025-05-04T13:29:52.575Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:30:01.918Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-04T13:30:01.932Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T13:35:23.533Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T13:35:23.534Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:35:24.152Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:35:28.815Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T13:35:28.839Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T13:39:49.588Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T13:39:49.590Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:39:51.098Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:39:55.475Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T13:39:55.507Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T13:41:32.546Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T13:41:32.548Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:41:33.327Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:41:37.886Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T13:41:37.914Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T13:45:08.824Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T13:45:08.825Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:45:09.574Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:45:13.528Z"}
+{"level":"info","message":"Response received from user-service: 500","service":"api_gateway","timestamp":"2025-05-04T13:45:13.557Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T13:52:45.270Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T13:52:45.274Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:52:46.066Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:52:51.528Z"}
+{"level":"error","message":"Error in proxy: request entity too large","service":"api_gateway","timestamp":"2025-05-04T13:52:51.532Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token","service":"api_gateway","timestamp":"2025-05-04T13:53:45.574Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-04T13:53:45.575Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:53:46.265Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:53:51.837Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:53:56.645Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T13:56:19.178Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T13:56:22.026Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage","service":"api_gateway","timestamp":"2025-05-04T14:00:27.534Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-04T14:00:31.480Z"}
