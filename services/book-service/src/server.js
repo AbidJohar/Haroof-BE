@@ -3,11 +3,11 @@ import dotenv from 'dotenv';
 import helmet from 'helmet';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import logger from '../src/utils/logger.js';
+import logger from './utils/logger.js';
 import Redis from 'ioredis';
-import bookRoutes from '../src/routes/bookRoutes.js';
+import bookRoutes from './routes/bookRoutes.js';
 
-dotenv.config();
+dotenv.config({path: './.env'});
 
 const app = express();
 const PORT = process.env.PORT || 3002;
@@ -17,10 +17,10 @@ const PORT = process.env.PORT || 3002;
  .then(()=> logger.info("DB connected successfully"))
  .catch((err)=> logger.error("something went wrong during DB connection",err))
  
-
 // _____________( redis connection )_____________________
 
 const redisClient = new Redis(process.env.REDIS_URL);
+
 
 
 // ____________( middlewares )_______________
@@ -42,6 +42,7 @@ app.use('/api/books', (req,res,next)=>{
     req.redisClient = redisClient;
     next();
 }, bookRoutes)
+
  
 
 // Set the port

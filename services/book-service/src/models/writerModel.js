@@ -7,6 +7,10 @@
      required: true,
      trim: true
    },
+   writerProfileImage: {
+    type: String,
+    required:true
+   },
    bio: {
      type: String,
      trim: true
