@@ -6,95 +6,242 @@ import jwt from 'jsonwebtoken';
 import { uploadonCloudinay } from '../utils/cloudinary.js';
 
 export const becomeWriter = async (req, res) => {
-    logger.info('Become Writer endpoint is hitting...');
-  
-    try {
-      // Validate the request body
-      const { error } = writerValidation(req.body);
-      if (error) {
-        logger.warn('Validation error', error.details[0].message);
-        return res.status(400).json({
-          success: false,
-          message: error.details[0].message,
-        });
-      }
+  logger.info('Become Writer endpoint is hitting...');
+  console.log(req.user.userId);
 
-      if (!req.file) {
-        logger.warn("No cover image file found.");
-        return res.status(404).json({
-          success: false,
-          message: "No cover image file found. Please add a file and try again!",
-        });
-      }
-  
-  
-      const { originalname, mimetype, buffer } = req.file;
-      logger.info(`File details: originalName: ${originalname}, type: ${mimetype}`);
-      logger.info('Uploading profile image to Cloudinary...');
-  
-      // Upload profile image to Cloudinary
-      const profileImageResult = await uploadonCloudinay(req.file);
-      logger.info(`Profile image uploaded successfully. Cloudinary public ID: ${profileImageResult.public_id}`);
-  
-      // Extract fields from request body
-      const {
-        fullName,
-        bio,
-        email,
-        paymentAccountNumber,
-        addressLine,
-        city,
-        state,
-        postalCode,
-        country,
-      } = req.body;
-  
-      // Create new writer
-      const newWriter = new Writer({
-        fullName,
-        writerProfileImage: profileImageResult.secure_url,
-        bio,
-        email,
-        paymentAccountNumber,
-        addressLine,
-        city,
-        state,
-        postalCode,
-        country,
+  try {
+    // Validate the request body
+    const { error } = writerValidation(req.body);
+    if (error) {
+      logger.warn('Validation error', error.details[0].message);
+      return res.status(400).json({
+        success: false,
+        message: error.details[0].message,
       });
-  
-      // Save writer to database
-      await newWriter.save();
-      logger.info('Writer created successfully', { writerId: newWriter._id });
-  
-      // Generate JWT access token
-      const accessToken = jwt.sign(
-        { email: newWriter.email },
-        process.env.JWT_SECRET,
-        { expiresIn: '7d' }
-      );
-      logger.info('Access token generated', { email: newWriter.email });
-  
-      return res.status(201).json({
-        success: true,
-        message: 'Writer created successfully',
-        writer: newWriter,
-        accessToken,
+    }
+
+    if (!req.file) {
+      logger.warn('No cover image file found.');
+      return res.status(404).json({
+        success: false,
+        message: 'No cover image file found. Please add a file and try again!',
       });
-    } catch (error) {
-      // Handle duplicate email error
-      if (error.code === 11000) {
-        logger.warn('Duplicate email error', error);
+    }
+
+    // Ensure user is authenticated (from validateToken middleware)
+    
+    const userId = req.user.userId; // From JWT payload
+    if (!userId) {
+      logger.warn('No user ID provided');
+      return res.status(401).json({
+        success: false,
+        message: 'Authentication required',
+      });
+    }
+
+    // Check if writer already exists for this user
+    const existingWriter = await Writer.findOne({ userId });
+    if (existingWriter) {
+      logger.warn(`Writer already exists for user ID ${userId}`);
+      return res.status(400).json({
+        success: false,
+        message: 'You already have a writer profile',
+      });
+    }
+
+    const { originalname, mimetype } = req.file;
+    logger.info(`File details: originalName: ${originalname}, type: ${mimetype}`);
+    logger.info('Uploading profile image to Cloudinary...');
+
+    // Upload profile image to Cloudinary
+    const profileImageResult = await uploadonCloudinay(req.file);
+    logger.info(`Profile image uploaded successfully. Cloudinary public ID: ${profileImageResult.public_id}`);
+
+    // Extract fields from request body
+    const {
+      fullName,
+      bio,
+      email,
+      paymentAccountNumber,
+      addressLine,
+      city,
+      state,
+      postalCode,
+      country,
+    } = req.body;
+
+      // Check if writer with email already exists
+      const existWriter = await Writer.findOne({ email });
+      if (existWriter) {
+        logger.warn(`Writer with email ${email} already exists`);
         return res.status(400).json({
           success: false,
           message: 'A writer with this email already exists',
         });
       }
-  
-      logger.error('Error while creating writer', error);
-      return res.status(500).json({
+
+    // Create new writer
+    const newWriter = new Writer({
+      userId,
+      fullName,
+      writerProfileImage: profileImageResult.secure_url,
+      bio,
+      email,
+      paymentAccountNumber,
+      addressLine,
+      city,
+      state,
+      postalCode,
+      country,
+    });
+
+    // Save writer to database
+    await newWriter.save();
+    logger.info('Writer created successfully' );
+
+    // Generate JWT access token
+    const accessToken = jwt.sign(
+      { email: newWriter.email },
+      process.env.JWT_SECRET_WRITER
+    );
+    logger.info('Access token generated' );
+
+    // Set HTTP-only cookie
+    res.cookie('writerAccessToken', accessToken, {
+      httpOnly: true, // Prevents JavaScript access
+      sameSite: 'strict', // Mitigates CSRF
+      // No maxAge, as token is non-expiring
+    });
+
+    return res.status(201).json({
+      success: true,
+      message: 'Writer created successfully. Save your access token securely: ' + accessToken,
+      writer: newWriter,
+      accessToken, // Still return token for user to save
+    });
+  } catch (error) {
+    if (error.code === 11000) {
+      logger.warn('Duplicate email error', error);
+      return res.status(400).json({
         success: false,
-        message: 'Internal server error',
+        message: 'A writer with this email already exists',
       });
     }
-  };
+
+    logger.error('Error while creating writer', error);
+    return res.status(500).json({
+      success: false,
+      message: 'Internal server error',
+    });
+  }
+};
+
+// _________________( fetch existing writer )___________
+
+export const getWriterProfile = async (req, res) => {
+  logger.info('Get Writer Profile endpoint is hitting...');
+
+  try {
+    // Ensure user is authenticated
+    const userId = req.user.userId;
+    if (!userId) {
+      logger.warn('No user ID provided in token');
+      return res.status(401).json({
+        success: false,
+        message: 'Authentication required',
+      });
+    }
+
+    // Find writer by userId
+    const writer = await Writer.findOne({ userId }).select('-__v');
+    if (!writer) {
+      logger.info(`No writer profile found for user ID ${userId}`);
+      return res.status(404).json({
+        success: false,
+        message: 'No writer profile found',
+      });
+    }
+
+    logger.info(`Writer profile retrieved for user ID ${userId}`);
+    return res.status(200).json({
+      success: true,
+      writer,
+    });
+  } catch (error) {
+    logger.error('Error while fetching writer profile', error);
+    return res.status(500).json({
+      success: false,
+      message: 'Internal server error',
+    });
+  }
+};
+
+
+
+
+//____________(get all writers )___________________
+
+export const getAllWriters = async (req, res) => {
+  logger.info('Get All Writers endpoint is hitting...');
+
+  try {
+    // Fetch all writers from the database
+    const writers = await Writer.find().select(
+      'fullName writerProfileImage bio email city state country'
+    );
+    logger.info('Successfully retrieved writers', { count: writers.length });
+
+    return res.status(200).json({
+      success: true,
+      message: 'Writers retrieved successfully',
+      writers,
+    });
+  } catch (error) {
+    logger.error('Error while retrieving writers', error);
+    return res.status(500).json({
+      success: false,
+      message: 'Internal server error',
+    });
+  }
+};
+
+
+//__________________( delete writer by id)_____________
+
+export const deleteWriter = async (req, res) => {
+  logger.info('Delete Writer endpoint is hitting...');
+
+  try {
+    // Get writer from writerMiddleware
+    const writer = req.writer;
+    if (!writer) {
+      logger.warn('Writer not authenticated');
+      return res.status(401).json({
+        success: false,
+        message: 'Unauthorized: Writer not authenticated',
+      });
+    }
+
+    // Delete writer from database
+    await Writer.deleteOne({ _id: writer._id });
+    logger.info('Writer deleted successfully', { writerId: writer._id });
+
+    // Clear the writerAccessToken cookie
+    res.clearCookie('writerAccessToken', {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'strict',
+    });
+
+    return res.status(200).json({
+      success: true,
+      message: 'Writer account deleted successfully',
+    });
+  } catch (error) {
+    logger.error('Error while deleting writer', error);
+    return res.status(500).json({
+      success: false,
+      message: 'Internal server error',
+    });
+  }
+};

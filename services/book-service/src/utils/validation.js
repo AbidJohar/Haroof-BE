@@ -36,12 +36,6 @@ const writerValidation = (data) => {
         'string.empty': 'Full name cannot be empty',
         'string.min': 'Full name must be at least 1 character long',
       }),
-    // writerProfileImage: Joi.string()
-    //   .required()
-    //   .messages({
-    //     'any.required': 'Writer profile image is required',
-    //     'string.empty': 'Writer profile image cannot be empty',
-    //   }),
     bio: Joi.string()
       .trim()
       .allow('')
@@ -59,53 +53,59 @@ const writerValidation = (data) => {
         'string.email': 'Email must be a valid email address',
         'string.empty': 'Email cannot be empty',
       }),
-    paymentAccountNumber: Joi.number()
+    paymentAccountNumber: Joi.string()
       .required()
-      .integer()
-      .positive()
+      .trim()
+      .min(1)
       .messages({
-        'any.required': 'A valid payment account number is required',
-        'number.base': 'Payment account number must be a number',
-        'number.integer': 'Payment account number must be an integer',
-        'number.positive': 'Payment account number must be positive',
+        'any.required': 'Payment account number is required',
+        'string.empty': 'Payment account number cannot be empty',
+        'string.min': 'Payment account number must be at least 1 character long',
       }),
     addressLine: Joi.string()
+      .required()
       .trim()
-      .allow('')
-      .optional()
+      .min(1)
       .messages({
-        'string.base': 'Address line must be a valid string',
+        'any.required': 'Address line is required',
+        'string.empty': 'Address line cannot be empty',
+        'string.min': 'Address line must be at least 1 character long',
       }),
     city: Joi.string()
+      .required()
       .trim()
-      .allow('')
-      .optional()
+      .min(1)
       .messages({
-        'string.base': 'City must be a valid string',
+        'any.required': 'City is required',
+        'string.empty': 'City cannot be empty',
+        'string.min': 'City must be at least 1 character long',
       }),
     state: Joi.string()
+      .required()
       .trim()
-      .allow('')
-      .optional()
+      .min(1)
       .messages({
-        'string.base': 'State must be a valid string',
+        'any.required': 'State is required',
+        'string.empty': 'State cannot be empty',
+        'string.min': 'State must be at least 1 character long',
       }),
-    postalCode: Joi.number()
-      .integer()
-      .positive()
-      .optional()
-      .allow(null)
+    postalCode: Joi.string()
+      .required()
+      .trim()
+      .min(1)
       .messages({
-        'number.base': 'Postal code must be a valid number',
-        'number.integer': 'Postal code must be an integer',
-        'number.positive': 'Postal code must be positive',
+        'any.required': 'Postal code is required',
+        'string.empty': 'Postal code cannot be empty',
+        'string.min': 'Postal code must be at least 1 character long',
       }),
     country: Joi.string()
+      .required()
       .trim()
-      .allow('')
-      .optional()
+      .min(1)
       .messages({
-        'string.base': 'Country must be a valid string',
+        'any.required': 'Country is required',
+        'string.empty': 'Country cannot be empty',
+        'string.min': 'Country must be at least 1 character long',
       }),
   });
 

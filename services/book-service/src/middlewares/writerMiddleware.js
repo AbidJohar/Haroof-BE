@@ -7,9 +7,10 @@ export const writerMiddleware = async (req, res, next) => {
   logger.info('Writer middleware is processing...');
 
   try {
-    // Extract token from Authorization header
-    const authHeader = req.headers.authorization;
-    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+    // Extract token from cookie
+
+    const token = req.cookies.writerAccessToken;
+    if (!token) {
       logger.warn('No access token provided');
       return res.status(401).json({
         success: false,
@@ -17,17 +18,15 @@ export const writerMiddleware = async (req, res, next) => {
       });
     }
 
-    const token = authHeader.split(' ')[1];
-
     // Verify token
     let decoded;
     try {
       decoded = jwt.verify(token, process.env.JWT_SECRET_WRITER);
     } catch (error) {
-      logger.warn('Invalid or expired token', error.message);
+      logger.warn('Invalid token', error.message);
       return res.status(401).json({
         success: false,
-        message: 'Invalid or expired token',
+        message: 'Invalid token',
       });
     }
 
@@ -41,7 +40,6 @@ export const writerMiddleware = async (req, res, next) => {
       });
     }
 
-    // Attach writer to request
     req.writer = writer;
     logger.info('Writer authenticated', { email: writer.email });
     next();

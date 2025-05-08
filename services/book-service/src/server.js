@@ -6,6 +6,7 @@ import cors from 'cors';
 import logger from './utils/logger.js';
 import Redis from 'ioredis';
 import bookRoutes from './routes/bookRoutes.js';
+import cookieParser from 'cookie-parser';
 
 dotenv.config({path: './.env'});
 
@@ -27,7 +28,13 @@ const redisClient = new Redis(process.env.REDIS_URL);
 app.use(helmet());
 app.use(express.json());  // To parse JSON request bodies
 app.use(express.urlencoded({ extended: true }));   
-app.use(cors());  // Enable CORS for all routes (modify if needed)
+app.use(cors({
+    origin: 'http://localhost:5173', // Explicit origin
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'Cookie'],
+}));   
+app.use(cookieParser());
 
 
 app.use((req,res,next)=>{
