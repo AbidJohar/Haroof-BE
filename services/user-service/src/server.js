@@ -36,7 +36,7 @@ logger.info('Cloudinary Config:', {
 // _____________(redis connection)_____________________
 
 const redisClient = new Redis(process.env.REDIS_URL);
-
+const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174'];
 
 
 
@@ -46,7 +46,14 @@ app.use(cookieParser());
 app.use(express.json());  // To parse JSON request bodies
 app.use(express.urlencoded({ extended: true }));  // To parse URL-encoded data
 app.use(cors({
-    origin: 'http://localhost:5173', // Specify the exact origin
+     origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, origin || '*'); // Reflect the request's Origin
+    } else {
+      logger.warn(`CORS rejected for origin: ${origin}`);
+      callback(new Error('Not allowed by CORS'));
+    }
+  }, // Specify the exact origin
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],

@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 3002;
 // _____________( redis connection )_____________________
 
 const redisClient = new Redis(process.env.REDIS_URL);
-
+const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174'];
 
 
 // ____________( middlewares )_______________
@@ -29,7 +29,14 @@ app.use(helmet());
 app.use(express.json());  // To parse JSON request bodies
 app.use(express.urlencoded({ extended: true }));   
 app.use(cors({
-    origin: 'http://localhost:5173', // Explicit origin
+         origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, origin || '*'); // Reflect the request's Origin
+    } else {
+      logger.warn(`CORS rejected for origin: ${origin}`);
+      callback(new Error('Not allowed by CORS'));
+    }
+  }, // Explicit origin
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'Cookie'],

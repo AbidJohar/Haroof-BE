@@ -13,3 +13,11 @@
 {"level":"error","message":"Error in proxy: request entity too large","service":"api_gateway","timestamp":"2025-05-04T13:52:51.532Z"}
 {"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-05T13:55:17.512Z"}
 {"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-05T14:03:32.387Z"}
+{"level":"error","message":"Error in proxy: Invalid value \"undefined\" for header \"x-user-id\"","service":"api_gateway","timestamp":"2025-05-06T13:21:50.683Z"}
+{"level":"error","message":"Error in proxy: Invalid value \"undefined\" for header \"x-user-id\"","service":"api_gateway","timestamp":"2025-05-06T13:22:51.086Z"}
+{"level":"error","message":"Error in proxy: Cannot read properties of undefined (reading 'userId')","service":"api_gateway","timestamp":"2025-05-11T11:07:31.657Z"}
+{"level":"error","message":"Error in proxy: Cannot read properties of undefined (reading 'userId')","service":"api_gateway","timestamp":"2025-05-11T11:07:31.688Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-11T19:10:28.250Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-11T19:10:28.264Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-11T19:10:32.732Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-11T19:10:32.745Z"}

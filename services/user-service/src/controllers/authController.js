@@ -123,7 +123,7 @@ const login = async (req, res) => {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
       sameSite: "strict",
-      maxAge: 40 * 60 * 1000, // 40 minutes
+      maxAge: 80 * 60 * 1000, // 80 minutes
     });
     res.cookie("refreshToken", refreshToken, {
       httpOnly: true,

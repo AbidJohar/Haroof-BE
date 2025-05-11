@@ -1,5 +1,5 @@
 import express from 'express';
-import { createBook, deleteBookById, getAllBooks, getBookById } from '../controllers/bookController.js';
+import { admin_getAllBooks, admin_getDecryptedBookById, createBook, deleteBookById, getAllBooks, getBookById, } from '../controllers/bookController.js';
 import {uploadFile, uploadWriterProfileImage} from '../utils/uploadfile.js';
 import authmiddleware from '../middlewares/authmiddleware.js'
 import multer from 'multer';
@@ -9,7 +9,7 @@ import { writerMiddleware } from '../middlewares/writerMiddleware.js';
 const router = express.Router();
 
 
-router.post('/create-book',authmiddleware, (req,res, next) =>{
+router.post('/create-book',authmiddleware,writerMiddleware, (req,res, next) =>{
     uploadFile(req,res,  function(error){
       if(error instanceof multer.MulterError){
            logger.error("Multer Error while uploading file..", error);
@@ -89,6 +89,13 @@ router.get('/me-writer', authmiddleware, getWriterProfile )
 
 router.get('/get-all-writers', getAllWriters);
 router.delete('/delete-writer', writerMiddleware, deleteWriter);
+
+
+// ________________(Admin endpoints )___________________
+
+
+router.get('/admin/getallbooks', admin_getAllBooks);
+router.get('/admin/get-content/:id', admin_getDecryptedBookById);
 
 
 

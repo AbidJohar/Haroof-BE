@@ -1,4 +1,3 @@
-// models/Book.js
 import mongoose from 'mongoose';
 
 const bookSchema = new mongoose.Schema({
@@ -9,7 +8,7 @@ const bookSchema = new mongoose.Schema({
   },
   authorId: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Writer', 
+    ref: 'Writer',
     required: true,
   },
   description: {
@@ -22,7 +21,13 @@ const bookSchema = new mongoose.Schema({
   },
   content: {
     type: String,
-    required: true,  
+    required: true,
+  },
+  contentKey: {
+    type: String,
+  },
+  contentIV: {
+    type: String,
   },
   coverImage: {
     type: String,
@@ -35,20 +40,22 @@ const bookSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
+  dislikes: {
+    type: Number,
+    default: 0,
+  },
   comments: {
-    type: [String], // You can later change this to a more complex schema if needed
+    type: [String],
     default: [],
   },
-  isPublished : {
+  isPublished: {
     type: Boolean,
-    default: false
-  }
+    default: false,
+  },
 }, {
-  timestamps: true // automatically adds createdAt and updatedAt
+  timestamps: true,
 });
 
 const Book = mongoose.model('Book', bookSchema);
 
 export default Book;
-
- 

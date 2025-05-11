@@ -1,8 +1,7 @@
-// utils/encryptAndUploadContent.js
 import crypto from 'crypto';
 import { Transform, Readable } from 'stream';
 import zlib from 'zlib';
-import  uploadFileBufferToCloudinary  from './uploadFilebufferToCloudinary.js';
+import uploadFileBufferToCloudinary from './uploadFilebufferToCloudinary.js';
 
 class StreamEncryption extends Transform {
   constructor(key, vector) {
@@ -28,7 +27,7 @@ const streamToBuffer = async (stream) => {
   });
 };
 
- const encryptAndUploadContent = async (content, filename = 'book') => {
+const encryptAndUploadContent = async (content, filename = 'book') => {
   const key = crypto.randomBytes(32);
   const vector = crypto.randomBytes(16);
 
@@ -40,8 +39,12 @@ const streamToBuffer = async (stream) => {
   const encryptedBuffer = await streamToBuffer(encryptedStream);
 
   const cloudinaryResult = await uploadFileBufferToCloudinary(encryptedBuffer, filename + '.txt.gz.enc');
-      
-  return cloudinaryResult.secure_url;
+
+  return {
+    secure_url: cloudinaryResult.secure_url,
+    key: key.toString('hex'),
+    vector: vector.toString('hex'),
+  };
 };
 
 export default encryptAndUploadContent;
