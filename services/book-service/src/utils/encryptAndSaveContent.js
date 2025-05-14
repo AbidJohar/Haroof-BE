@@ -6,15 +6,26 @@ import uploadFileBufferToCloudinary from './uploadFilebufferToCloudinary.js';
 class StreamEncryption extends Transform {
   constructor(key, vector) {
     super();
-    this.key = key;
-    this.vector = vector;
+    this.cipher = crypto.createCipheriv('aes-256-cbc', key, vector);
   }
 
   _transform(chunk, encoding, cb) {
-    const cipher = crypto.createCipheriv('aes-256-cbc', this.key, this.vector);
-    const encrypted = Buffer.concat([cipher.update(chunk), cipher.final()]);
-    this.push(encrypted);
-    cb();
+    try {
+      const encrypted = this.cipher.update(chunk);
+      this.push(encrypted);
+      cb();
+    } catch (err) {
+      cb(err);
+    }
+  }
+
+  _flush(cb) {
+    try {
+      this.push(this.cipher.final());
+      cb();
+    } catch (err) {
+      cb(err);
+    }
   }
 }
 
@@ -28,6 +39,10 @@ const streamToBuffer = async (stream) => {
 };
 
 const encryptAndUploadContent = async (content, filename = 'book') => {
+  if (!content || content.length === 0) {
+    throw new Error('Content is empty');
+  }
+
   const key = crypto.randomBytes(32);
   const vector = crypto.randomBytes(16);
 
@@ -37,6 +52,8 @@ const encryptAndUploadContent = async (content, filename = 'book') => {
 
   const encryptedStream = contentStream.pipe(gzipStream).pipe(encryptStream);
   const encryptedBuffer = await streamToBuffer(encryptedStream);
+
+  console.log('Encrypted buffer length:', encryptedBuffer.length); // Debug log
 
   const cloudinaryResult = await uploadFileBufferToCloudinary(encryptedBuffer, filename + '.txt.gz.enc');
 

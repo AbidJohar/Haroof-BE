@@ -53,7 +53,7 @@ const userRegistration = async (req, res) => {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
       sameSite: "strict",
-      maxAge: 40 * 60 * 1000, // 40 minutes
+      maxAge: 120 * 60 * 1000, // 2 hours
     });
     res.cookie("refreshToken", refreshToken, {
       httpOnly: true,
@@ -123,7 +123,7 @@ const login = async (req, res) => {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
       sameSite: "strict",
-      maxAge: 80 * 60 * 1000, // 80 minutes
+      maxAge: 120 * 60 * 1000, // 2 hours
     });
     res.cookie("refreshToken", refreshToken, {
       httpOnly: true,

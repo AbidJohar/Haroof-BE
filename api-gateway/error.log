@@ -21,3 +21,7 @@
 {"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-11T19:10:28.264Z"}
 {"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-11T19:10:32.732Z"}
 {"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-11T19:10:32.745Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-12T08:33:20.678Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-12T08:33:20.699Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-12T08:34:10.548Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-12T08:34:10.564Z"}

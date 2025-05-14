@@ -48,6 +48,7 @@ const bookSchema = new mongoose.Schema({
     type: [String],
     default: [],
   },
+  status: { type: String, enum: ['approved', 'pending', 'rejected'], default: 'pending' },
   isPublished: {
     type: Boolean,
     default: false,

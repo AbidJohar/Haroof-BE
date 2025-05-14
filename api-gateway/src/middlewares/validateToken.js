@@ -28,6 +28,9 @@ const validateToken = async (req, res, next) => {
     console.log("req:",req.cookies);
     const token = req.cookies?.accessToken;
 
+    console.log("token",token);
+    
+
     if (!token) {
       logger.warn("Access without an access token");
       return res.status(401).json({

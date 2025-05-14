@@ -110,7 +110,8 @@ export const becomeWriter = async (req, res) => {
     res.cookie('writerAccessToken', accessToken, {
       httpOnly: true, // Prevents JavaScript access
       sameSite: 'strict', // Mitigates CSRF
-      // No maxAge, as token is non-expiring
+      maxAge: 1000 * 60 * 60 * 24 * 365 * 10 
+       
     });
 
     return res.status(201).json({
@@ -181,29 +182,68 @@ export const getWriterProfile = async (req, res) => {
 
 //____________(get all writers )___________________
 
+ 
+
 export const getAllWriters = async (req, res) => {
   logger.info('Get All Writers endpoint is hitting...');
 
   try {
-    // Fetch all writers from the database
-    const writers = await Writer.find().select(
-      'fullName writerProfileImage bio email city state country'
-    );
-    logger.info('Successfully retrieved writers', { count: writers.length });
+    // Fetch all writers and populate their books
+    const writers = await Writer.find()
+      .select('fullName writerProfileImage bio email city state country books')
+      .populate({
+        path: 'books',
+        select: 'status isPublished',
+      });
+
+    // Process writers to include book counts
+    const formattedWriters = writers.map((writer) => {
+      const bookCount = writer.books.length;
+      const pending = writer.books.filter(
+        (book) => book.status?.toLowerCase() === 'pending'
+      ).length;
+      const rejected = writer.books.filter(
+        (book) => book.status?.toLowerCase() === 'rejected'
+      ).length;
+      const approved = writer.books.filter(
+        (book) => book.status?.toLowerCase() === 'approved'
+      ).length;
+
+      return {
+        authorId: writer._id.toString(),
+        name: writer.fullName,
+        writerProfileImage: writer.writerProfileImage,
+        bio: writer.bio || '',
+        email: writer.email,
+        city: writer.city || '',
+        state: writer.state || '',
+        country: writer.country || '',
+        bookCount,
+        pending,
+        rejected,
+        approved, // Added for completeness
+      };
+    });
+
+    // Log for debugging
+    logger.info('Successfully retrieved writers', { count: formattedWriters.length });
+    console.log('Formatted writers:', formattedWriters); // Debug: Inspect counts
 
     return res.status(200).json({
       success: true,
       message: 'Writers retrieved successfully',
-      writers,
+      writers: formattedWriters,
     });
   } catch (error) {
-    logger.error('Error while retrieving writers', error);
+    logger.error('Error while retrieving writers', { error: error.message });
     return res.status(500).json({
       success: false,
       message: 'Internal server error',
     });
   }
 };
+
+export default getAllWriters;
 
 
 //__________________( delete writer by id)_____________

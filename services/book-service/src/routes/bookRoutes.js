@@ -1,5 +1,5 @@
 import express from 'express';
-import { admin_getAllBooks, admin_getDecryptedBookById, createBook, deleteBookById, getAllBooks, getBookById, } from '../controllers/bookController.js';
+import { admin_approveBook, admin_getAllBooks,  admin_getAllBooksById,  admin_getDecryptedBookById, admin_rejectBook, createBook, deleteBookById, getAllBooks, getBooksByWriterId, getDecryptedBookById, } from '../controllers/bookController.js';
 import {uploadFile, uploadWriterProfileImage} from '../utils/uploadfile.js';
 import authmiddleware from '../middlewares/authmiddleware.js'
 import multer from 'multer';
@@ -42,7 +42,7 @@ router.post('/create-book',authmiddleware,writerMiddleware, (req,res, next) =>{
 }, createBook );
 
 router.get('/getallbooks', authmiddleware, getAllBooks);
-router.post('/getbook/:id', authmiddleware, getBookById);
+router.get('/getbooks/:id', authmiddleware, getBooksByWriterId);
 router.delete('/deletebook/:id', authmiddleware, deleteBookById);
 
 
@@ -85,9 +85,10 @@ router.post(
   becomeWriter
 );
 
-router.get('/me-writer', authmiddleware, getWriterProfile )
+router.get('/me-writer', authmiddleware, getWriterProfile );
 
-router.get('/get-all-writers', getAllWriters);
+router.get('/get-decrypted-book/:id', authmiddleware, getDecryptedBookById )
+
 router.delete('/delete-writer', writerMiddleware, deleteWriter);
 
 
@@ -95,7 +96,11 @@ router.delete('/delete-writer', writerMiddleware, deleteWriter);
 
 
 router.get('/admin/getallbooks', admin_getAllBooks);
+router.get('/admin/get-books-byAuthorId/:id', admin_getAllBooksById );
 router.get('/admin/get-content/:id', admin_getDecryptedBookById);
+router.get('/admin/get-all-writers', getAllWriters);
+router.put('/admin/approve/:id',admin_approveBook);
+router.put('/admin/reject/:id',admin_rejectBook);
 
 
 
