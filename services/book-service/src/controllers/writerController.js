@@ -7,7 +7,6 @@ import { uploadonCloudinay } from '../utils/cloudinary.js';
 
 export const becomeWriter = async (req, res) => {
   logger.info('Become Writer endpoint is hitting...');
-  console.log(req.user.userId);
 
   try {
     // Validate the request body
@@ -28,9 +27,8 @@ export const becomeWriter = async (req, res) => {
       });
     }
 
-    // Ensure user is authenticated (from validateToken middleware)
-    
-    const userId = req.user.userId; // From JWT payload
+    // Ensure user is authenticated
+    const userId = req.user?.userId; // From JWT payload
     if (!userId) {
       logger.warn('No user ID provided');
       return res.status(401).json({
@@ -70,15 +68,23 @@ export const becomeWriter = async (req, res) => {
       country,
     } = req.body;
 
-      // Check if writer with email already exists
-      const existWriter = await Writer.findOne({ email });
-      if (existWriter) {
-        logger.warn(`Writer with email ${email} already exists`);
-        return res.status(400).json({
-          success: false,
-          message: 'A writer with this email already exists',
-        });
-      }
+    // Check if writer with email already exists
+    const existWriter = await Writer.findOne({ email });
+    if (existWriter) {
+      logger.warn(`Writer with email ${email} already exists`);
+      return res.status(400).json({
+        success: false,
+        message: 'A writer with this email already exists',
+      });
+    }
+
+    // Generate JWT writerAccessToken
+    const writerAccessToken = jwt.sign(
+      { email, userId },
+      process.env.JWT_SECRET_WRITER,
+      { expiresIn: '30d' }
+    );
+    logger.info('Writer access token generated');
 
     // Create new writer
     const newWriter = new Writer({
@@ -93,32 +99,26 @@ export const becomeWriter = async (req, res) => {
       state,
       postalCode,
       country,
+      writerAccessToken, // Store token in DB
     });
 
     // Save writer to database
     await newWriter.save();
-    logger.info('Writer created successfully' );
-
-    // Generate JWT access token
-    const accessToken = jwt.sign(
-      { email: newWriter.email },
-      process.env.JWT_SECRET_WRITER
-    );
-    logger.info('Access token generated' );
+    logger.info('Writer created successfully', { writerId: newWriter._id });
 
     // Set HTTP-only cookie
-    res.cookie('writerAccessToken', accessToken, {
-      httpOnly: true, // Prevents JavaScript access
-      sameSite: 'strict', // Mitigates CSRF
-      maxAge: 1000 * 60 * 60 * 24 * 365 * 10 
-       
+    res.cookie('writerAccessToken', writerAccessToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'strict',
+      maxAge: 1000 * 60 * 60 * 24 * 30, // 30 days
+      path: '/',
     });
 
     return res.status(201).json({
       success: true,
-      message: 'Writer created successfully. Save your access token securely: ' + accessToken,
+      message: 'Writer profile created successfully',
       writer: newWriter,
-      accessToken, // Still return token for user to save
     });
   } catch (error) {
     if (error.code === 11000) {
@@ -144,7 +144,7 @@ export const getWriterProfile = async (req, res) => {
 
   try {
     // Ensure user is authenticated
-    const userId = req.user.userId;
+    const userId = req.user?.userId;
     if (!userId) {
       logger.warn('No user ID provided in token');
       return res.status(401).json({
@@ -154,7 +154,7 @@ export const getWriterProfile = async (req, res) => {
     }
 
     // Find writer by userId
-    const writer = await Writer.findOne({ userId }).select('-__v');
+    let writer = await Writer.findOne({ userId }).select('-__v');
     if (!writer) {
       logger.info(`No writer profile found for user ID ${userId}`);
       return res.status(404).json({
@@ -163,9 +163,51 @@ export const getWriterProfile = async (req, res) => {
       });
     }
 
-    logger.info(`Writer profile retrieved for user ID ${userId}`);
+    // Restore writerAccessToken from database
+    let writerAccessToken = writer.writerAccessToken;
+    if (writerAccessToken) {
+      try {
+        // Verify token is valid
+        jwt.verify(writerAccessToken, process.env.JWT_SECRET_WRITER);
+      } catch (error) {
+        logger.warn('Stored writerAccessToken is invalid', { error: error.message, userId });
+        writerAccessToken = null;
+      }
+    } else{
+      return res.status(404).json({
+        success: false,
+        message: " no writer access Token found!"
+      })
+    }
+
+    // // Generate new token only if missing or invalid
+    // if (!writerAccessToken) {
+    //   writerAccessToken = jwt.sign(
+    //     { email: writer.email, userId },
+    //     process.env.JWT_SECRET_WRITER,
+    //     { expiresIn: '30d' }
+    //   );
+    //   writer = await Writer.findByIdAndUpdate(
+    //     writer._id,
+    //     { writerAccessToken },
+    //     { new: true }
+    //   );
+    //   logger.info('New writerAccessToken generated and stored', { writerId: writer._id, userId });
+    // }
+
+    // Set writerAccessToken cookie
+    res.cookie('writerAccessToken', writerAccessToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'strict',
+      maxAge: 1000 * 60 * 60 * 24 * 30, // 30 days
+      path: '/',
+    });
+
+    logger.info(`Writer profile retrieved and token set for user ID ${userId}`);
     return res.status(200).json({
       success: true,
+      message: 'Writer profile fetched successfully',
       writer,
     });
   } catch (error) {

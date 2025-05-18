@@ -93,3 +93,4 @@
 {"error":{},"level":"error","message":"Error while fetching books","service":"book-service","timestamp":"2025-05-14T18:42:50.095Z","writerId":"6824d5c11be00ed4b933c13b"}
 {"error":{},"level":"error","message":"Error while fetching books","service":"book-service","timestamp":"2025-05-14T18:46:38.226Z","writerId":"6824d5c11be00ed4b933c13b"}
 {"error":{},"level":"error","message":"Error while fetching books","service":"book-service","timestamp":"2025-05-14T18:46:38.434Z","writerId":"6824d5c11be00ed4b933c13b"}
+{"level":"error","message":"Error while creating book Cannot read properties of undefined (reading '_id')","service":"book-service","stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at createBook (file:///C:/Users/PMLS/OneDrive/Desktop/harof-BE/services/book-service/src/controllers/bookController.js:46:33)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-05-18T10:24:12.940Z"}

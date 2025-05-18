@@ -60,6 +60,7 @@
     default: 0,
     min: 0,  
   },
+  writerAccessToken: { type: String }, // New field for storing token
  }, {
    timestamps: true // adds createdAt & updatedAt automatically
  });

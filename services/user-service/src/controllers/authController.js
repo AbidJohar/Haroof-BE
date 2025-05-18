@@ -181,6 +181,17 @@ const logout = async (req, res) => {
       sameSite: "strict",
     });
 
+    console.log("writer Access Token is proccessing..", );
+    
+    // Clear writerAccessToken cookie
+    res.clearCookie("writerAccessToken", {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
+      path: "/"
+    });
+    console.log("writer Access also deleted", );
+
     logger.info("Refresh token deleted for logged out");
 
     return res.json({
