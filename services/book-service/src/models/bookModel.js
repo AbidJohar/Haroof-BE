@@ -53,6 +53,8 @@ const bookSchema = new mongoose.Schema({
     type: Boolean,
     default: false,
   },
+  isDraft: { type: Boolean, default: false },
+  lastEdited: { type: Date },
 }, {
   timestamps: true,
 });

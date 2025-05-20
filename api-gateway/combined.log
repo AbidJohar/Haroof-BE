@@ -7643,3 +7643,1296 @@
 {"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-18T11:30:37.822Z"}
 {"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-18T11:30:37.823Z"}
 {"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-18T11:30:37.824Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-18T16:34:36.451Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-18T16:34:36.455Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-18T16:34:36.455Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-18T16:34:36.456Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:35:29.584Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-18T16:35:29.585Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-18T16:35:29.621Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:35:29.628Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-18T16:35:29.629Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-18T16:35:29.649Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:35:35.734Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-18T16:35:35.736Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-18T16:35:35.751Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:35:36.275Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-18T16:35:36.276Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-18T16:35:36.296Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:35:36.981Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-18T16:35:36.982Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-18T16:35:36.993Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:35:38.315Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-18T16:35:38.316Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-18T16:35:38.332Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:35:39.712Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-18T16:35:39.712Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-18T16:35:39.719Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:35:49.533Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-18T16:35:49.534Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-18T16:35:49.544Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:36:00.186Z"}
+{"level":"info","message":"Request body: {\"email\":\"abid@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-18T16:36:00.187Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-18T16:36:00.395Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:36:11.105Z"}
+{"level":"info","message":"Request body: {\"email\":\"sana@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-18T16:36:11.108Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:36:11.734Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:36:11.745Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:36:11.757Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:36:15.402Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:36:15.414Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:36:15.952Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:36:15.960Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:36:16.352Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:36:16.366Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:36:16.690Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:36:16.698Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-decrypted-book/6829bedbfeef054ab1e2379c from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:36:33.235Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:36:33.245Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:36:34.325Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-decrypted-book/6829bedbfeef054ab1e2379c from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:36:47.493Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:36:47.501Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:36:49.415Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:36:49.420Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:37:59.855Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:37:59.863Z"}
+{"level":"info","message":"Response received from Book-service: 201","service":"api_gateway","timestamp":"2025-05-18T16:38:04.686Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:38:09.488Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:38:09.501Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:38:09.703Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:38:44.958Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:38:44.960Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:38:44.961Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:38:45.270Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:38:45.276Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:38:45.279Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:38:45.281Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:38:59.446Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:38:59.449Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:38:59.450Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:38:59.901Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:38:59.903Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:38:59.904Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682a0cece6374527df7a3e44 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:10.574Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:39:10.578Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:39:10.580Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:39:11.862Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682a0cece6374527df7a3e44 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:11.868Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:39:11.870Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:39:11.872Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:20.002Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:20.012Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:39:20.457Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:20.463Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:20.469Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:20.874Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:20.883Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:21.284Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:21.293Z"}
+{"level":"info","message":"Received PUT request to /v1/books/admin/approve/682a0cece6374527df7a3e44 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:25.011Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-18T16:39:25.012Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:39:25.015Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:39:25.016Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:39:25.581Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:28.725Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:39:28.727Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:39:28.728Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:39:29.059Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:29.063Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:39:29.066Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:39:29.069Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682a0cece6374527df7a3e44 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:32.452Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:39:32.454Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:39:32.454Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:39:33.161Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682a0cece6374527df7a3e44 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:33.167Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:39:33.170Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:39:33.171Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:35.723Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:39:35.725Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:39:35.726Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:36.095Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:39:36.098Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:39:36.099Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:38.468Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-18T16:39:38.468Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:38.470Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:38.478Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:38.499Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:38.503Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:39:38.622Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:38.628Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:38.634Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:39:38.762Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:38.768Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:38.779Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:39:38.976Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:38.985Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:38.992Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:39.069Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:39.077Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:39:39.350Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:39.355Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-all-writers from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:46.337Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:46.344Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:39:46.789Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-all-writers from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:46.796Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:46.805Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-books-byAuthorId/6829c298feef054ab1e23837 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:54.632Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:54.635Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:39:55.069Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-books-byAuthorId/6829c298feef054ab1e23837 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:39:55.074Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:39:55.082Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:40:05.380Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:40:05.382Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:40:05.382Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-18T16:40:05.827Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-18T16:40:05.829Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-18T16:40:05.831Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:48:16.179Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:48:16.195Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:48:16.372Z"}
+{"level":"info","message":"Received PUT request to /v1/auth/update-profileImage from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:52:22.942Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:52:25.360Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:52:25.436Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:52:25.443Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:52:39.494Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:52:39.503Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:52:39.902Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:52:39.908Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:52:40.211Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:52:40.281Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:52:40.929Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:52:41.110Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-decrypted-book/6829c102feef054ab1e237b7 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:52:41.585Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:52:41.590Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-18T16:52:43.900Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-decrypted-book/6829c102feef054ab1e237b7 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:53:05.113Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:53:05.121Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:54:21.901Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:54:21.912Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:54:22.302Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:54:22.310Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:54:22.709Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:54:22.714Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:54:23.127Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:54:23.137Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:55:06.102Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:55:06.107Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:55:06.470Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:55:06.476Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:55:06.911Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:55:06.918Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-18T16:55:07.340Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-18T16:55:07.347Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-18T16:57:23.206Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-18T16:57:23.210Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-18T16:57:23.210Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-18T16:57:23.211Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-19T10:29:17.126Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-19T10:29:17.129Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-19T10:29:17.129Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-19T10:29:17.130Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:29:32.237Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-19T10:29:32.238Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:29:32.240Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-19T10:29:32.240Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-19T10:29:32.452Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-19T10:29:32.454Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:29:43.319Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-19T10:29:43.321Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-19T10:29:43.333Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:29:44.355Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-19T10:29:44.356Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-19T10:29:44.370Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:29:45.429Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-19T10:29:45.431Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-19T10:29:45.443Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:29:49.896Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-19T10:29:49.897Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-19T10:29:49.906Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:30:07.708Z"}
+{"level":"info","message":"Request body: {\"email\":\"zeeshan@gmail.com\",\"password\":\"\"}","service":"api_gateway","timestamp":"2025-05-19T10:30:07.709Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-19T10:30:07.766Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:30:13.277Z"}
+{"level":"info","message":"Request body: {\"email\":\"zeeshan@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-19T10:30:13.278Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-19T10:30:13.783Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:30:13.794Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-19T10:30:13.805Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-19T10:30:14.004Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:30:24.627Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-19T10:30:24.633Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-19T10:30:25.071Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:30:25.076Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-19T10:30:25.085Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:30:25.414Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-19T10:30:25.423Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:30:25.753Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-19T10:30:25.764Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:30:52.613Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-19T10:30:52.614Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:30:52.624Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-19T10:30:52.625Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-19T10:30:52.626Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-19T10:30:52.640Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:30:59.875Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-19T10:30:59.875Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-19T10:30:59.886Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-19T10:31:08.929Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-19T10:31:08.936Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-19T10:31:09.078Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-19T11:24:41.205Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-19T11:24:41.209Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-19T11:24:41.210Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-19T11:24:41.211Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-20T09:37:09.332Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-20T09:37:09.335Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-20T09:37:09.336Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-20T09:37:09.336Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:00:28.218Z"}
+{"level":"info","message":"Request body: {\"email\":\"sana@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-20T10:00:28.221Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:00:29.333Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:00:29.357Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:00:29.388Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:00:34.902Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:00:34.913Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:00:35.167Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:01:13.083Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:01:13.100Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T10:01:13.143Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:03:14.294Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:03:14.302Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:03:14.609Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:03:14.620Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:04:35.038Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:04:35.056Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T10:04:35.097Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:06:05.567Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:06:05.580Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T10:06:05.637Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:06:50.553Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:06:50.624Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T10:06:50.840Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:07:59.683Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:07:59.691Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T10:08:00.045Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:09:13.275Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:09:13.283Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:09:13.542Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:09:13.595Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:09:19.280Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:09:19.289Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:09:19.425Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:09:19.439Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:09:27.278Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:09:27.284Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:09:27.440Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:09:27.446Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:10:18.881Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:10:18.890Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:10:19.359Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:13:48.322Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:13:48.325Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:13:48.326Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:13:48.775Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:13:48.806Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:13:48.810Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:13:48.812Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:13:51.057Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:13:51.060Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:13:51.062Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:13:51.318Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:13:51.322Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:13:51.325Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:15:55.995Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:15:55.998Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:15:55.999Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:15:56.145Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:15:56.153Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:15:56.156Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:15:56.158Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:16:22.783Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:16:22.787Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:16:22.789Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:16:23.096Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:16:23.101Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:16:23.105Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:16:23.107Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:22:26.076Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:22:26.087Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:22:26.089Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:22:26.299Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:22:26.347Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:22:26.351Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:22:26.358Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-all-writers from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:22:29.925Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:22:29.980Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:22:30.244Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-all-writers from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:22:30.255Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:22:30.269Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:22:32.327Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:22:32.334Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:22:32.336Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:22:32.472Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:22:32.475Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:22:32.477Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:22:39.058Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:22:39.067Z"}
+{"level":"info","message":"Response received from Book-service: 404","service":"api_gateway","timestamp":"2025-05-20T10:22:40.213Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:22:40.273Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:22:40.287Z"}
+{"level":"info","message":"Response received from Book-service: 404","service":"api_gateway","timestamp":"2025-05-20T10:22:40.428Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:22:40.439Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:22:40.455Z"}
+{"level":"info","message":"Response received from Book-service: 404","service":"api_gateway","timestamp":"2025-05-20T10:22:40.637Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:22:40.654Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:22:40.660Z"}
+{"level":"info","message":"Response received from Book-service: 404","service":"api_gateway","timestamp":"2025-05-20T10:22:40.837Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:22:51.301Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:22:51.317Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:22:51.488Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:26:43.828Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:26:43.856Z"}
+{"level":"info","message":"Response received from Book-service: 201","service":"api_gateway","timestamp":"2025-05-20T10:26:49.231Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:26:51.969Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:26:51.995Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:26:52.151Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:29:01.296Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:29:01.311Z"}
+{"level":"info","message":"Response received from Book-service: 201","service":"api_gateway","timestamp":"2025-05-20T10:29:06.394Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:29:09.916Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:29:09.942Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:29:10.190Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:29:13.774Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:29:13.780Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:29:13.783Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:29:14.061Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:29:14.074Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:29:14.082Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:29:14.086Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:29:25.114Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:29:25.117Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:29:25.119Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:29:25.536Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:29:25.604Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:29:25.606Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:30:03.296Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:30:03.309Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:30:03.575Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:30:09.364Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:30:09.370Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:30:09.373Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:30:09.764Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:30:09.771Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:30:09.776Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:30:09.779Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:30:37.561Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:30:37.565Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:30:37.568Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:30:39.075Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:30:39.083Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:30:39.141Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:30:39.144Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:30:41.427Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:30:41.431Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:30:41.433Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:30:41.702Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:30:41.707Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:30:41.710Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:32:12.697Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:32:12.701Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:32:12.703Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:32:13.167Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T10:32:13.195Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T10:32:13.197Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-all-writers from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:32:13.592Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:32:13.606Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:32:14.006Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-all-writers from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T10:32:14.016Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:32:14.029Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:34:09.748Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:34:09.767Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:34:10.006Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:36:09.490Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:36:09.515Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-20T10:36:09.593Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:36:09.681Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:36:09.701Z"}
+{"level":"error","message":"Error in proxy: ","service":"api_gateway","timestamp":"2025-05-20T10:36:09.741Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:36:53.239Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T10:36:53.243Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:36:53.253Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:36:53.282Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:36:54.409Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:36:55.206Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:36:55.214Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:36:55.225Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:36:55.264Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:36:55.286Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:36:55.394Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:36:55.403Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:36:55.501Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:36:55.572Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:36:55.717Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:36:55.729Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:40:17.173Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:40:17.219Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:40:17.582Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:40:17.595Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:40:17.661Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:40:17.680Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:40:17.859Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:40:17.871Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:42:00.716Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:42:00.729Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:42:00.902Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:42:00.928Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:42:00.933Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:42:00.940Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:42:01.098Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:42:01.102Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:50:11.306Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:50:11.312Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:50:11.515Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:50:11.523Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:50:11.540Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:50:11.546Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:50:11.752Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:50:11.756Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:50:11.761Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:54:55.977Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:54:55.981Z"}
+{"level":"info","message":"Response received from Book-service: 404","service":"api_gateway","timestamp":"2025-05-20T10:54:55.995Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:55:47.526Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:55:47.534Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:55:47.543Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:55:47.551Z"}
+{"level":"info","message":"Response received from Book-service: 404","service":"api_gateway","timestamp":"2025-05-20T10:55:47.578Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:55:47.829Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:55:47.835Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:56:40.759Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:56:40.764Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:56:40.768Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:56:40.787Z"}
+{"level":"info","message":"Response received from Book-service: 404","service":"api_gateway","timestamp":"2025-05-20T10:56:40.805Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:56:40.986Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:56:40.993Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:57:42.432Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:57:42.439Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:57:42.460Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:57:42.462Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T10:57:42.685Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T10:57:42.691Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T10:57:42.788Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:07:30.244Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:07:30.250Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T11:07:30.712Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:07:30.716Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:07:30.723Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:07:31.022Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:07:31.025Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:07:31.421Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:07:31.424Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:07:33.140Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:07:33.143Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:07:35.299Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:07:35.303Z"}
+{"level":"info","message":"Received GET request to /v1/books/draft/682c59ab3582cdb31bcbcaca from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:07:37.624Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:07:37.632Z"}
+{"level":"info","message":"Response received from Book-service: 404","service":"api_gateway","timestamp":"2025-05-20T11:07:37.642Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:08:10.233Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:08:10.238Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:08:12.242Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:08:12.245Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:08:15.328Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:08:15.343Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:08:15.352Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:08:15.365Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:08:15.530Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:08:15.539Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c59ab3582cdb31bcbcaca from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:08:17.393Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:08:17.396Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T11:08:17.700Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:14:56.906Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:14:56.912Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:14:57.279Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:14:57.290Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:14:57.689Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:14:57.694Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:14:57.812Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:14:57.817Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:14:57.991Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:14:57.998Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:15:00.561Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:15:00.567Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:15:31.244Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:15:31.249Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:15:33.235Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:15:33.238Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:15:44.242Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:15:44.245Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:15:46.238Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:15:46.248Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:15:47.234Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:15:47.237Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:15:57.241Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:15:57.246Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:16:01.226Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:16:01.229Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:16:03.240Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:16:03.245Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:16:19.236Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:16:19.239Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:16:21.238Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:16:21.241Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c59ab3582cdb31bcbcaca from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:16:24.475Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:16:24.478Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:28.971Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:28.980Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:33.234Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:33.241Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:33.248Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:33.253Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:33.263Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:33.267Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:56.929Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:56.932Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:56.934Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:56.937Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:56.948Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:56.953Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:56.956Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:56.961Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:59.315Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T11:17:59.316Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:59.323Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:59.329Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:59.337Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:59.348Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:59.381Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:59.386Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:59.391Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:59.398Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:59.406Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:59.412Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:17:59.418Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T11:17:59.426Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T11:18:00.669Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:18:00.681Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:18:00.685Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:18:01.634Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:18:01.638Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:18:03.952Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:18:03.956Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c59ab3582cdb31bcbcaca from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:18:06.463Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:18:06.467Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:21:40.209Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:21:40.215Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:21:40.529Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:21:40.532Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:21:40.935Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:21:40.940Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:21:41.248Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:21:41.253Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:21:41.602Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:21:41.607Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:21:44.208Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:21:44.212Z"}
+{"level":"info","message":"Received POST request to /v1/books/update from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:22:53.809Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:22:53.816Z"}
+{"level":"info","message":"Response received from Book-service: 404","service":"api_gateway","timestamp":"2025-05-20T11:22:53.823Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:25:16.865Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:25:16.871Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:25:17.035Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:25:17.047Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:27:16.910Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:27:16.916Z"}
+{"level":"info","message":"Response received from Book-service: 201","service":"api_gateway","timestamp":"2025-05-20T11:27:23.850Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-all-writers from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T11:31:07.472Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:31:07.477Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T11:31:07.729Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-all-writers from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T11:31:07.731Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:31:07.735Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T11:31:10.656Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T11:31:10.658Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T11:31:10.659Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T11:31:11.099Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T11:31:11.105Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T11:31:11.109Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T11:31:11.110Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682c671bf8dd1d437f208a11 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T11:31:22.167Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T11:31:22.168Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T11:31:22.169Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T11:31:23.087Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682c671bf8dd1d437f208a11 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T11:31:23.091Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T11:31:23.093Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T11:31:23.094Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T11:31:25.400Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T11:31:25.402Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T11:31:25.402Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T11:31:25.742Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T11:31:25.743Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T11:31:25.744Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:32:30.841Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:32:30.844Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:32:31.294Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:32:31.310Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:32:31.700Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:32:31.713Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:32:32.108Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:32:32.112Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:32:32.869Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:32:32.873Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:32:37.483Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:32:37.489Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T11:32:37.658Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:32:37.662Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:32:37.669Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:32:37.685Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:32:37.693Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:32:37.869Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:32:37.874Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:32:39.826Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:32:39.830Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:35:47.487Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:35:47.499Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:35:47.653Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:35:47.660Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:36:17.888Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:36:17.893Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T11:36:20.939Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:41:09.169Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:41:09.177Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T11:41:11.580Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:41:13.215Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:41:13.219Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:41:41.194Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:41:41.198Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T11:41:41.462Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:41:44.215Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:41:44.220Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:50:43.306Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:50:43.319Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:50:43.510Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:50:43.520Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:50:43.541Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:50:43.555Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:50:43.700Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:50:43.707Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:50:46.572Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:50:46.576Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c6a576df689876f901b87 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:50:49.310Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:50:49.318Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T11:50:49.632Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T11:51:08.831Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T11:51:08.840Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T11:51:08.980Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:00:55.229Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:00:55.237Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:00.621Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:01:00.625Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:00.631Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:01:00.635Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:00.641Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:01:00.644Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:00.648Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:01:00.652Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:05.415Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:01:05.420Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:05.437Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T12:01:05.438Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:05.441Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:01:05.444Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:05.497Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:01:05.504Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:05.511Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:01:05.514Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:05.522Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:01:05.526Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:05.530Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:01:05.533Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:01:06.455Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:06.460Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:01:06.464Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:09.310Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:01:09.318Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:13.390Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:01:13.436Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:01:13.921Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:13.928Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:01:13.933Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:14.383Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:01:14.391Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:14.902Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:01:14.908Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:23.484Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:01:23.492Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:27.176Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:01:27.180Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c6a576df689876f901b87 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:31.043Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:01:31.051Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:01:44.054Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:01:44.062Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T12:01:44.286Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:07:54.824Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:07:54.828Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:07:55.276Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:09:05.796Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:09:05.799Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:09:08.821Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:09:08.825Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:09:09.051Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c6a576df689876f901b87 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:09:14.168Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:09:14.176Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:09:14.537Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:09:25.146Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:09:25.216Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:09:25.448Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:09:27.855Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:09:27.861Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:09:52.116Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:09:52.160Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:09:52.521Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c6a576df689876f901b87 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:09:54.100Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:09:54.108Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:09:54.368Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:43:47.657Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:43:47.706Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:08.036Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:08.039Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:08.041Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:08.045Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:08.049Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:08.055Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:08.059Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:08.061Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:08.796Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:08.799Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:12.609Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:12.613Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:12.636Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:12.643Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:27.960Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:27.988Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:27.994Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:28.003Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:28.018Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:28.033Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:28.042Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T12:45:28.049Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:36.231Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T12:45:36.233Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:45:36.826Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:36.848Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T12:45:36.849Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-20T12:45:36.903Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:47.876Z"}
+{"level":"info","message":"Request body: {\"email\":\"sana@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-20T12:45:47.877Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:45:48.568Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:48.585Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:45:48.633Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:50.576Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:45:50.588Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:52.925Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:45:52.931Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c6a576df689876f901b87 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:45:55.366Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:45:55.375Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:46:02.147Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:46:02.151Z"}
+{"level":"info","message":"Response received from Book-service: 400","service":"api_gateway","timestamp":"2025-05-20T12:46:02.335Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:48:22.484Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:48:22.489Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:49:15.201Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:49:15.204Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c59ab3582cdb31bcbcaca from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:49:19.529Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:49:19.538Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:49:25.506Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:49:25.509Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:49:58.289Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:49:58.290Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:49:58.295Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:49:58.305Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:49:58.553Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:49:58.561Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:49:58.731Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c59ab3582cdb31bcbcaca from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:50:00.056Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:50:00.064Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:50:31.201Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:50:31.250Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:50:31.494Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:50:39.744Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:50:39.753Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:50:40.012Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:50:40.025Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:51:24.852Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:51:24.864Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:51:27.851Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:51:30.275Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:51:30.281Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:51:33.257Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:51:33.262Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:51:33.656Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c7acf3bd9c6aeafd8de0f from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:51:38.057Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:51:38.069Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T12:51:38.525Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T12:51:51.715Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T12:51:51.782Z"}
+{"level":"info","message":"Response received from Book-service: 400","service":"api_gateway","timestamp":"2025-05-20T12:51:51.991Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T13:00:45.309Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T13:00:45.353Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T13:00:56.608Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T13:00:56.614Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T16:07:26.691Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T16:07:26.869Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:05.918Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:05.930Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T16:31:05.931Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T16:31:05.936Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:05.946Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T16:31:05.950Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:05.995Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T16:31:06.001Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:06.006Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T16:31:06.015Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:06.020Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T16:31:06.023Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:06.028Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T16:31:06.033Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:31:08.358Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:08.366Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:08.370Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:31:09.139Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:11.766Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:11.769Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T16:31:11.770Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:11.777Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:11.795Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:11.801Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:11.902Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:11.907Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:31:12.664Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:12.672Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:12.677Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:31:13.747Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:13.752Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:13.759Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:14.553Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:14.558Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:14.816Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:14.821Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:19.545Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:19.549Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:22.282Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:22.291Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c7acf3bd9c6aeafd8de0f from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:24.956Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:24.964Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:31:33.803Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:31:33.813Z"}
+{"level":"info","message":"Response received from Book-service: 400","service":"api_gateway","timestamp":"2025-05-20T16:31:34.085Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:40:19.542Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:40:19.557Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:40:19.747Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:40:19.760Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:40:23.237Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:40:23.242Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:40:26.060Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:40:26.065Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682c7acf3bd9c6aeafd8de0f from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:40:28.695Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:40:28.703Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:40:40.266Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:40:40.276Z"}
+{"level":"info","message":"Response received from Book-service: 500","service":"api_gateway","timestamp":"2025-05-20T16:40:40.630Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:41:41.082Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:41:41.086Z"}
+{"level":"info","message":"Response received from Book-service: 400","service":"api_gateway","timestamp":"2025-05-20T16:41:41.386Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:46:39.370Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:46:39.381Z"}
+{"level":"info","message":"Response received from Book-service: 400","service":"api_gateway","timestamp":"2025-05-20T16:46:39.594Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:48:38.652Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:48:38.719Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:48:41.818Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T16:48:44.408Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T16:48:44.414Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:48:44.566Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:09.468Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:09.470Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:09.471Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:49:09.763Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:09.767Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:09.768Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:09.770Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:15.504Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:15.523Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:15.524Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:15.961Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:15.964Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:15.966Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682c58e83582cdb31bcbcab8 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:18.451Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:18.452Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:18.453Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:49:20.615Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682c58e83582cdb31bcbcab8 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:20.619Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:20.621Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:20.623Z"}
+{"level":"info","message":"Received PUT request to /v1/books/admin/approve/682c58e83582cdb31bcbcab8 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:22.901Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T16:49:22.902Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:22.904Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:22.906Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:49:23.783Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:25.852Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:25.857Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:25.860Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:49:26.240Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:26.244Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:26.246Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:26.247Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682c59723582cdb31bcbcabd from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:28.135Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:28.136Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:28.137Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:49:28.886Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682c59723582cdb31bcbcabd from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:28.891Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:28.959Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:28.961Z"}
+{"level":"info","message":"Received PUT request to /v1/books/admin/approve/682c59723582cdb31bcbcabd from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:30.834Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T16:49:30.835Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:30.837Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:30.838Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:49:31.255Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:33.197Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:33.199Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:33.200Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:49:33.585Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:33.589Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:33.591Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:33.593Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682c7acf3bd9c6aeafd8de0f from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:35.629Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:35.633Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:35.633Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T16:49:36.069Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682c7acf3bd9c6aeafd8de0f from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T16:49:36.074Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T16:49:36.076Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T16:49:36.078Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:33.356Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:33.380Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:33.388Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:33.391Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:38.035Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:38.038Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:38.040Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:38.044Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:38.048Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:38.051Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:38.053Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:38.067Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:41.612Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:41.616Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:41.623Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T17:13:41.626Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:41.643Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:41.648Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:41.661Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:41.663Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:41.665Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:41.668Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:41.673Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:41.677Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:41.680Z"}
+{"level":"warn","message":"Access without an access token","service":"api_gateway","timestamp":"2025-05-20T17:13:41.685Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:13:42.755Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:42.767Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:13:42.783Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:13:43.013Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:45.402Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:13:45.407Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:13:45.562Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:13:50.577Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:13:50.585Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:13:50.874Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:14:41.072Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:14:41.076Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:14:41.260Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:14:43.663Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:14:43.669Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:15:33.870Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:15:33.879Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:15:39.245Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:15:41.691Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:15:41.696Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:15:41.822Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:16:18.283Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:16:18.285Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:16:18.286Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:16:18.541Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:16:18.544Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:16:18.545Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:16:18.545Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cb8bac6774f28cf3b27f9 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:16:22.834Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:16:22.835Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:16:22.837Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:16:25.473Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cb8bac6774f28cf3b27f9 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:16:25.479Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:16:25.481Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:16:25.483Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:16:27.955Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:16:27.956Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:16:27.957Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:16:28.375Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:16:28.377Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:16:28.379Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:16:33.627Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:16:33.634Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:16:33.942Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:16:34.009Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:16:34.016Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:16:34.412Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:16:34.420Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:16:34.886Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:16:34.893Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:16:56.818Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:16:56.821Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:01.922Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:17:01.979Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:02.376Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:17:02.390Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:02.796Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:17:02.805Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:03.193Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:17:03.200Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c298feef054ab1e23837 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:06.731Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:17:06.736Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:09.029Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:17:09.073Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:09.443Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:17:09.450Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:10.004Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:17:10.009Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:10.468Z"}
+{"level":"info","message":"Setting x-user-id: 6829c25c25a41d93e5fc4289","service":"api_gateway","timestamp":"2025-05-20T17:17:10.477Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:12.642Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T17:17:12.644Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:17:12.856Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:12.869Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T17:17:12.870Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-20T17:17:12.903Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:26.897Z"}
+{"level":"info","message":"Request body: {\"email\":\"zeeshan@gmail.com\",\"password\":\"123456\"}","service":"api_gateway","timestamp":"2025-05-20T17:17:26.898Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:17:27.530Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:27.541Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:17:27.545Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:17:27.746Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:30.938Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:17:30.982Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:31.352Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:17:31.359Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:31.774Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:17:31.786Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:32.082Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:17:32.141Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:33.622Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:17:33.630Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:17:33.800Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:17:35.548Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:17:35.552Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:18:33.157Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:18:33.168Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:18:38.725Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:18:41.464Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:18:41.473Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:18:44.323Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:18:44.327Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:18:44.766Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682cb96ec6774f28cf3b2830 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:19:05.424Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:19:05.433Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:19:05.758Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:19:51.818Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:19:51.878Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:19:55.218Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:19:57.376Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:19:57.392Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:20:04.494Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:20:41.370Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:20:41.375Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:20:41.376Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:20:41.810Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:20:41.814Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:20:41.818Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:20:41.819Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cb96ec6774f28cf3b2830 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:20:43.642Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:20:43.644Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:20:43.644Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:20:45.399Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cb96ec6774f28cf3b2830 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:20:45.465Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:20:45.468Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:20:45.471Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:00.311Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:00.316Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:05.235Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:05.241Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:15.274Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:15.281Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:23:15.515Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:15.521Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:15.527Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:15.533Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:15.540Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:15.786Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:15.790Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:16.242Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:16.246Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:18.677Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:18.684Z"}
+{"level":"info","message":"Received GET request to /v1/books/me-writer from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:18.823Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:18.827Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:18.838Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:18.843Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:18.962Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:18.965Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:23:22.575Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:23:22.584Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:23:22.829Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:26:09.792Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:26:09.855Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:26:13.905Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:26:16.628Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:26:16.636Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:26:16.863Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cb96ec6774f28cf3b2830 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:26:23.935Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:26:23.937Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:26:23.939Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cb96ec6774f28cf3b2830 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:26:24.448Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:26:24.450Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:26:24.451Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:26:27.256Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:26:27.259Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:26:27.260Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:26:27.616Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:26:27.682Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:26:27.684Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:26:27.688Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cb96ec6774f28cf3b2830 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:26:31.985Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:26:31.986Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:26:31.986Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cb96ec6774f28cf3b2830 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:26:32.536Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:26:32.550Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:26:32.552Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:26:55.441Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:26:55.443Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:26:55.444Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:26:55.876Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:26:55.880Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:26:55.882Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:26:55.883Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cbb35c6774f28cf3b2852 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:26:57.843Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:26:57.845Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:26:57.846Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:26:59.774Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cbb35c6774f28cf3b2852 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:26:59.842Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:26:59.843Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:26:59.843Z"}
+{"level":"info","message":"Received PUT request to /v1/books/admin/approve/682cbb35c6774f28cf3b2852 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:27:01.988Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T17:27:01.989Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:27:01.991Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:27:01.992Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:27:02.398Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:27:04.546Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:27:04.548Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:27:04.550Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:27:04.991Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:27:04.995Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:27:04.997Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:27:04.999Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cb8bac6774f28cf3b27f9 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:27:07.260Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:27:07.263Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:27:07.264Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cb8bac6774f28cf3b27f9 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:27:07.926Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:27:07.929Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:27:07.931Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:27:11.386Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:27:11.388Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:27:11.389Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:27:11.615Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:27:11.617Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:27:11.619Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:27:34.463Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:27:34.467Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:27:34.468Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:27:34.891Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:27:34.896Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:27:34.898Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:27:34.900Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:27:40.648Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:27:40.651Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:27:41.043Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:27:41.048Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:27:41.058Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:27:41.523Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:27:41.537Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:27:41.875Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:27:41.887Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:28:49.627Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:28:49.634Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:28:49.852Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:28:53.419Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:28:53.423Z"}
+{"level":"info","message":"Received POST request to /v1/books/draft-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:31:11.269Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:31:11.277Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:31:13.593Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:31:15.199Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:31:15.206Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-all-drafts from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:31:18.253Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:31:18.301Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:31:18.637Z"}
+{"level":"info","message":"Received GET request to /v1/books/get-draftbyid/682cbc61c6774f28cf3b2888 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:31:35.313Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:31:35.320Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:31:35.746Z"}
+{"level":"info","message":"Received POST request to /v1/books/create-book from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:32:16.271Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:32:16.278Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:32:18.953Z"}
+{"level":"info","message":"Received GET request to /v1/books/getbooks/6829c08ffeef054ab1e237b3 from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:32:20.529Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:32:20.541Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:32:20.697Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:32:27.096Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:32:27.101Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:32:27.102Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:32:27.454Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:32:27.458Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:32:27.461Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:32:27.464Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cbc61c6774f28cf3b2888 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:32:29.903Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:32:29.906Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:32:29.907Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:32:30.836Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/get-content/682cbc61c6774f28cf3b2888 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:32:30.841Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:32:30.844Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:32:30.846Z"}
+{"level":"info","message":"Received PUT request to /v1/books/admin/approve/682cbc61c6774f28cf3b2888 from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:32:36.431Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T17:32:36.432Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:32:36.434Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:32:36.435Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:32:37.116Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:32:39.042Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:32:39.045Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:32:39.046Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:32:39.434Z"}
+{"level":"info","message":"Received GET request to /v1/books/admin/getallbooks from origin: http://localhost:5174","service":"api_gateway","timestamp":"2025-05-20T17:32:39.439Z"}
+{"level":"info","message":"Admin authenticated via x-admin-token","service":"api_gateway","timestamp":"2025-05-20T17:32:39.441Z"}
+{"level":"info","message":"Setting x-user-id: admin","service":"api_gateway","timestamp":"2025-05-20T17:32:39.443Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:32:45.277Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:32:45.287Z"}
+{"level":"info","message":"Response received from Book-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:32:45.592Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:32:45.645Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:32:45.658Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:32:46.115Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:32:46.130Z"}
+{"level":"info","message":"Received GET request to /v1/books/getallbooks from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:32:46.517Z"}
+{"level":"info","message":"Setting x-user-id: 6829bc4225a41d93e5fc4270","service":"api_gateway","timestamp":"2025-05-20T17:32:46.526Z"}
+{"level":"info","message":"Received POST request to /v1/auth/logout from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:32:59.101Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T17:32:59.102Z"}
+{"level":"info","message":"Response received from user-service: 200","service":"api_gateway","timestamp":"2025-05-20T17:32:59.403Z"}
+{"level":"info","message":"Received POST request to /v1/auth/refresh-Token from origin: http://localhost:5173","service":"api_gateway","timestamp":"2025-05-20T17:32:59.466Z"}
+{"level":"info","message":"Request body: {}","service":"api_gateway","timestamp":"2025-05-20T17:32:59.467Z"}
+{"level":"info","message":"Response received from user-service: 400","service":"api_gateway","timestamp":"2025-05-20T17:32:59.491Z"}
+{"level":"info","message":"API Gateway running on port: 3000","service":"api_gateway","timestamp":"2025-05-20T17:34:30.416Z"}
+{"level":"info","message":"User service URL: http://localhost:3001","service":"api_gateway","timestamp":"2025-05-20T17:34:30.418Z"}
+{"level":"info","message":"Book service URL: http://localhost:3002","service":"api_gateway","timestamp":"2025-05-20T17:34:30.419Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6379","service":"api_gateway","timestamp":"2025-05-20T17:34:30.420Z"}

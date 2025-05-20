@@ -16,6 +16,7 @@ const createBook = async (req, res) => {
   logger.info("Create Book endpoint is hitting...");
 
   try {
+    // Validate request body
     const { error } = bookValidation(req.body);
     if (error) {
       logger.warn("Validation error", error.details[0].message);
@@ -25,63 +26,150 @@ const createBook = async (req, res) => {
       });
     }
 
-    if (!req.file) {
-      logger.warn("No cover image file found.");
-      return res.status(404).json({
-        success: false,
-        message: "No cover image file found. Please add a file and try again!",
-      });
-    }
-
-    const { originalname, mimetype, buffer } = req.file;
-
-    logger.info(`File details: originalName: ${originalname}, type: ${mimetype}`);
-    logger.info(`Uploading cover image to Cloudinary...`);
-    
-    const coverImageResult = await uploadonCloudinay(req.file);
-
-    logger.info(`Cover image uploaded successfully. Cloudinary public ID: ${coverImageResult.public_id}`);
-
-    const { title, description, category, content } = req.body;
+    const { bookId, title, description, category, content } = req.body;
     const authorId = req.writer._id;
 
-    logger.info(`Encrypting and uploading book content to Cloudinary...`);
-    const { secure_url, key, vector } = await encryptAndUploadContent(content, title.replace(/\s+/g, '_').toLowerCase());
-    logger.info(`Book content uploaded successfully.`);
+    let coverImageUrl = null;
+    let updatedBook;
 
-    const newBook = new Book({
-      title,
-      authorId,
-      coverImage: coverImageResult.secure_url,
-      description,
-      content: secure_url,
-      contentKey: key,
-      contentIV: vector,
-      category,
-    });
+    if (bookId) {
+      // Update existing draft
+      logger.info('Processing draft submission with bookId:', { bookId });
 
-    await newBook.save();
-    logger.info("Book created successfully", { bookId: newBook._id });
+      // Retrieve draft
+      const draft = await Book.findOne({ _id: bookId, authorId, isDraft: true });
+      if (!draft) {
+        logger.warn(`Draft not found or unauthorized`, { bookId, authorId });
+        return res.status(404).json({
+          success: false,
+          message: 'Draft not found or you are not authorized to submit it',
+        });
+      }
 
-    // Update writer's books array
+      // Use existing coverImage URL if no new file provided
+      coverImageUrl = draft.coverImage;
+      if (req.file) {
+        const { originalname, mimetype } = req.file;
+        logger.info(`File details: originalName: ${originalname}, type: ${mimetype}`);
+        logger.info(`Uploading cover image to Cloudinary...`);
+
+        const coverImageResult = await uploadonCloudinay(req.file);
+        if (!coverImageResult?.secure_url) {
+          logger.error('Failed to upload cover image to Cloudinary');
+          return res.status(500).json({
+            success: false,
+            message: 'Failed to upload cover image',
+          });
+        }
+        coverImageUrl = coverImageResult.secure_url;
+        logger.info(`Cover image uploaded successfully. Cloudinary public ID: ${coverImageResult.public_id}`);
+      } else {
+        logger.info('No new cover image provided, using existing coverImage URL');
+      }
+
+      // Encrypt and upload content
+      logger.info(`Encrypting and uploading book content to Cloudinary...`);
+      const { secure_url, key, vector } = await encryptAndUploadContent(content, title.replace(/\s+/g, '_').toLowerCase());
+      logger.info(`Book content uploaded successfully.`);
+
+      // Update draft for submission
+      updatedBook = await Book.findOneAndUpdate(
+        { _id: bookId, authorId, isDraft: true },
+        {
+          title,
+          description,
+          category,
+          coverImage: coverImageUrl,
+          content: secure_url, // Clear raw content
+          contentKey: key,
+          contentIV: vector,
+          isDraft: false,
+          isPublished: false,
+          lastEdited: new Date(),
+        },
+        { new: true }
+      );
+
+      if (!updatedBook) {
+        logger.error('Failed to update draft for submission', { bookId });
+        return res.status(500).json({
+          success: false,
+          message: 'Failed to submit book',
+        });
+      }
+
+      logger.info('Draft submitted successfully', { bookId: updatedBook._id });
+    } else {
+      // Create new book directly
+      logger.info('Creating new book for submission....');
+
+      // Require cover image file
+      if (!req.file) {
+        logger.warn('No cover image file provided for new book');
+        return res.status(400).json({
+          success: false,
+          message: 'Cover image is required for new book submission',
+        });
+      }
+
+      const { originalname, mimetype } = req.file;
+      logger.info(`File details: originalName: ${originalname}, type: ${mimetype}`);
+      logger.info(`Uploading cover image to Cloudinary...`);
+
+      const coverImageResult = await uploadonCloudinay(req.file);
+      if (!coverImageResult?.secure_url) {
+        logger.error('Failed to upload cover image to Cloudinary');
+        return res.status(500).json({
+          success: false,
+          message: 'Failed to upload cover image',
+        });
+      }
+      coverImageUrl = coverImageResult.secure_url;
+      logger.info(`Cover image uploaded successfully. Cloudinary public ID: ${coverImageResult.public_id}`);
+
+      // Encrypt and upload content
+      logger.info(`Encrypting and uploading book content to Cloudinary...`);
+      const { secure_url, key, vector } = await encryptAndUploadContent(content, title.replace(/\s+/g, '_').toLowerCase());
+      logger.info(`Book content uploaded successfully.`);
+
+      // Create new book
+      updatedBook = new Book({
+        title,
+        authorId,
+        description,
+        category,
+        coverImage: coverImageUrl,
+        content: secure_url, 
+        contentKey: key,
+        contentIV: vector,
+        isDraft: false,
+        isPublished: false,
+        lastEdited: new Date(),
+      });
+
+      await updatedBook.save();
+      logger.info('New book submitted successfully', { bookId: updatedBook._id });
+    }
+
+    // Update writer's books array (if not already included)
     await Writer.findByIdAndUpdate(
       authorId,
-      { $push: { books: newBook._id } },
+      { $addToSet: { books: updatedBook._id } }, // Avoid duplicates
       { new: true }
     );
-    logger.info('Writer updated with new book', { writerId: authorId, bookId: newBook._id });
+    logger.info('Writer updated with submitted book', { writerId: authorId, bookId: updatedBook._id });
 
-    return res.status(201).json({
+    return res.status(200).json({
       success: true,
-      message: "Book created successfully",
-      book: newBook,
+      message: 'Book submitted successfully',
+      book: updatedBook,
     });
 
   } catch (error) {
-    logger.error("Error while creating book", error);
+    logger.error('Error while submitting book', { error: error.message, stack: error.stack });
     return res.status(500).json({
       success: false,
-      message: "Internal server error",
+      message: 'Internal server error',
     });
   }
 };
@@ -101,6 +189,9 @@ const getAllBooks = async (req, res) => {
         message: "No books found",
       });
     }
+
+    console.log("books:",books);
+    
 
     // Format books with writer details
     const formattedBooks = books.map((book) => ({
@@ -148,7 +239,7 @@ const getBooksByWriterId = async (req, res) => {
   try {
    
     // Fetch all books using authorId
-    const books = await Book.find({ authorId: id });
+    const books = await Book.find({ authorId: id,isDraft: false  });
     logger.info('Books queried', {
       writerId: id,
       bookCount: books.length,
@@ -301,7 +392,7 @@ const admin_getAllBooks = async (req, res) => {
 
   try {
     // Populate the 'authorId' field to include the writer's fullName
-    const books = await Book.find().populate('authorId', 'fullName');
+    const books = await Book.find({isDraft:false}).populate('authorId', 'fullName');
     logger.info("Books fetched successfully", { count: books.length });
 
     // Log books with missing authorId for debugging
@@ -561,6 +652,155 @@ const admin_rejectBook = async (req, res) => {
 };
 
 
+// _____________________( Draft books )_______________
+
+const draftBook = async (req, res) => {
+  logger.info('Save Draft endpoint is hitting...');
+  try {
+    let coverImageUrl = null;
+
+    // Handle cover image upload if provided
+    if (req.file) {
+      const { originalname, mimetype } = req.file;
+      logger.info(`File details: originalName: ${originalname}, type: ${mimetype}`);
+      logger.info('Uploading cover image to Cloudinary...');
+
+      const coverImageResult = await uploadonCloudinay(req.file);
+      if (!coverImageResult?.secure_url) {
+        logger.error('Failed to upload cover image to Cloudinary');
+        return res.status(500).json({
+          success: false,
+          message: 'Failed to upload cover image',
+        });
+      }
+      coverImageUrl = coverImageResult.secure_url;
+    }
+
+    const authorId = req.writer._id;
+    const { bookId, title, description, category, content } = req.body;
+
+    // Validate required fields
+    if (!title) {
+      logger.warn('Title is required');
+      return res.status(400).json({
+        success: false,
+        message: 'Title is required',
+      });
+    }
+
+    let book;
+    if (bookId) {
+      // Update existing draft
+      book = await Book.findOneAndUpdate(
+        { _id: bookId, authorId, isDraft: true },
+        {
+          title,
+          description,
+          category,
+          ...(coverImageUrl && { coverImage: coverImageUrl }), // Only update coverImage if provided
+          content,
+          lastEdited: new Date(),
+        },
+        { new: true }
+      );
+
+      if (!book) {
+        logger.warn(`Draft not found or unauthorized`, { bookId, authorId });
+        return res.status(404).json({
+          success: false,
+          message: 'Draft not found or you are not authorized to update it',
+        });
+      }
+
+      logger.info(`Draft updated successfully`, { bookId: book._id });
+    } else {
+      // Create new draft
+      book = new Book({
+        title,
+        authorId,
+        description,
+        category,
+        coverImage: coverImageUrl, // Use uploaded URL or null
+        content,
+        isDraft: true,
+        lastEdited: new Date(),
+      });
+      await book.save();
+      logger.info(`New draft created successfully`, { bookId: book._id });
+    }
+
+    return res.status(200).json({
+      success: true,
+      message: bookId ? 'Draft updated successfully' : 'Draft created successfully',
+      book,
+    });
+  } catch (err) {
+    logger.error('Error saving draft', { error: err.message, stack: err.stack });
+    return res.status(500).json({
+      success: false,
+      message: 'Server error',
+    });
+  }
+};
+
+const getAllDrafts = async (req, res) => {
+  logger.info('Get All Drafts endpoint is hitting...');
+  try {
+    const userId = req.writer._id;
+    const drafts = await Book.find({ authorId: userId, isDraft: true }).select(
+      'title coverImage description category lastEdited'
+    );
+    logger.info(`Fetched ${drafts.length} drafts for writer ${userId}`);
+    return res.status(200).json({
+      success: true,
+      message: 'Drafts retrieved successfully',
+      drafts,
+    });
+  } catch (err) {
+    logger.error('Error fetching drafts', err);
+    return res.status(500).json({
+      success: false,
+      message: 'Server error',
+    });
+  }
+};
+
+const getDraftById = async (req, res) => {
+  logger.info('Get Draft by ID endpoint is hitting...');
+  try {
+    const authorId = req.writer._id;
+    const { id } = req.params;
+
+    const draft = await Book.findOne({ _id: id, authorId, isDraft: true }).select(
+      'title coverImage description category content lastEdited'
+    );
+    console.log("draft by id:",draft);
+    
+
+    if (!draft) {
+      logger.warn(`Draft not found or unauthorized access`, { draftId: id,authorId });
+      return res.status(404).json({
+        success: false,
+        message: 'Draft not found or you are not authorized to access it',
+      });
+    }
+
+    logger.info(`Fetched draft ${id} for writer ${authorId}`);
+    return res.status(200).json({
+      success: true,
+      message: 'Draft retrieved successfully',
+      draft,
+    });
+  } catch (err) {
+    logger.error('Error fetching draft by ID', err);
+    return res.status(500).json({
+      success: false,
+      message: 'Server error',
+    });
+  }
+};
 
 
-export { createBook,getAllBooks,getDecryptedBookById,admin_approveBook,admin_rejectBook, admin_getAllBooksById,deleteBookById,getBooksByWriterId,admin_getAllBooks,admin_getDecryptedBookById };
+
+
+export { createBook,getDraftById,draftBook,getAllDrafts,getAllBooks,getDecryptedBookById,admin_approveBook,admin_rejectBook, admin_getAllBooksById,deleteBookById,getBooksByWriterId,admin_getAllBooks,admin_getDecryptedBookById };

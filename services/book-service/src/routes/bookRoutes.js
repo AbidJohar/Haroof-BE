@@ -1,5 +1,5 @@
 import express from 'express';
-import { admin_approveBook, admin_getAllBooks,  admin_getAllBooksById,  admin_getDecryptedBookById, admin_rejectBook, createBook, deleteBookById, getAllBooks, getBooksByWriterId, getDecryptedBookById, } from '../controllers/bookController.js';
+import { admin_approveBook, admin_getAllBooks,  admin_getAllBooksById,  admin_getDecryptedBookById, admin_rejectBook, createBook, deleteBookById, draftBook, getAllBooks, getAllDrafts, getBooksByWriterId, getDecryptedBookById, getDraftById, } from '../controllers/bookController.js';
 import {uploadFile, uploadWriterProfileImage} from '../utils/uploadfile.js';
 import authmiddleware from '../middlewares/authmiddleware.js'
 import multer from 'multer';
@@ -29,14 +29,14 @@ router.post('/create-book',authmiddleware,writerMiddleware, (req,res, next) =>{
         })
       }
       
-      if(!req.file){
-        logger.error("No file found..", error);
-        return res.status(500).json({
-         success: false,
-         message: "No file found!",
+      // if(!req.file){
+      //   logger.error("No file found..", error);
+      //   return res.status(500).json({
+      //    success: false,
+      //    message: "No file found!",
         
-        })
-      }
+      //   })
+      // }
       next()
     });
 }, createBook );
@@ -90,6 +90,43 @@ router.get('/me-writer', authmiddleware, getWriterProfile );
 router.get('/get-decrypted-book/:id', authmiddleware, getDecryptedBookById )
 
 router.delete('/delete-writer', writerMiddleware, deleteWriter);
+
+router.post('/draft-book',authmiddleware,writerMiddleware,(req,res, next) =>{
+    uploadFile(req,res,  function(error){
+      if(error instanceof multer.MulterError){
+           logger.error("Multer Error while uploading file..", error);
+           return res.status(400).json({
+            success: false,
+            message: "Error during file uploading",
+            error: error.message,
+            stack: error.stack
+           })
+      } else if(error) {
+        logger.error("Unknown Error while uploading file..", error);
+        return res.status(500).json({
+         success: false,
+         message: "Unknown Error while uploading file..",
+         error: error.message,
+         stack: error.stack
+        })
+      }
+      
+      // if(!req.file){
+      //   logger.error("No file found..", error);
+      //   return res.status(500).json({
+      //    success: false,
+      //    message: "No file found!",
+        
+      //   })
+      // }
+      next()
+    });
+},
+  draftBook);
+
+router.get('/get-all-drafts',authmiddleware,writerMiddleware,getAllDrafts);
+router.get('/get-draftbyid/:id',authmiddleware,writerMiddleware,getDraftById);
+
 
 
 // ________________(Admin endpoints )___________________
