@@ -80,7 +80,7 @@ const createBook = async (req, res) => {
           description,
           category,
           coverImage: coverImageUrl,
-          content: secure_url, // Clear raw content
+          content: secure_url, 
           contentKey: key,
           contentIV: vector,
           isDraft: false,
@@ -190,7 +190,7 @@ const getAllBooks = async (req, res) => {
       });
     }
 
-    console.log("books:",books);
+    // console.log("books:",books);
     
 
     // Format books with writer details
@@ -205,6 +205,7 @@ const getAllBooks = async (req, res) => {
       likes: book.likes || 0,
       dislikes: book.dislikes || 0,
       writer: {
+        authorId: book.authorId._id.toString(),
         fullName: book.authorId?.fullName ||book.fullName || 'Unknown',
         followers: book.authorId?.followers ? 
           (Array.isArray(book.authorId.followers) ? book.authorId.followers.length : book.authorId.followers) : 0,

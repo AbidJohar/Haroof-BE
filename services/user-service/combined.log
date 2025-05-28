@@ -2172,3 +2172,341 @@
 {"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-20T17:34:24.542Z"}
 {"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-20T17:34:24.556Z"}
 {"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-20T17:34:27.434Z"}
+{"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-21T03:31:30.045Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-21T03:31:30.065Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-21T03:31:32.174Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:31:51.916Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:31:51.921Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:31:51.925Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T03:31:51.926Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:31:51.930Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T03:31:51.931Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:31:56.469Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:31:56.475Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T03:31:56.480Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:31:57.503Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:31:57.511Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T03:31:57.514Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:31:59.381Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:31:59.385Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T03:31:59.389Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:32:00.701Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:32:00.708Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T03:32:00.712Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:32:02.377Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:32:02.385Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T03:32:02.387Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:32:06.506Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:32:06.509Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T03:32:06.510Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:32:32.381Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:32:32.386Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T03:32:32.388Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-21T03:32:49.788Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-21T03:32:49.791Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-21T03:32:50.308Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:42:55.336Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:42:55.339Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-21T03:42:55.606Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T03:42:59.264Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T03:42:59.267Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-21T03:42:59.687Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-21T04:00:10.878Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T04:00:10.880Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-21T04:00:11.038Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T04:00:11.085Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T04:00:11.089Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T04:00:11.090Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-21T04:00:20.512Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-21T04:00:20.515Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-21T04:00:20.823Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T04:21:03.155Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T04:21:03.160Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-21T04:21:03.455Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-21T04:21:08.596Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T04:21:08.600Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-21T04:21:08.721Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T04:21:08.788Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T04:21:08.794Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T04:21:08.795Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T04:21:10.739Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T04:21:10.767Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T04:21:10.772Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T04:21:12.714Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T04:21:12.723Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T04:21:12.725Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-21T04:21:14.235Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-21T04:21:14.242Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-21T04:21:14.244Z"}
+{"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-21T04:21:47.111Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-21T04:21:47.149Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-21T04:21:48.854Z"}
+{"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-23T05:36:32.792Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-23T05:36:32.808Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-23T05:36:52.746Z"}
+{"level":"info","message":" Received GET request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-23T05:40:26.029Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-23T06:00:46.729Z"}
+{"level":"info","message":"Registration endpoint hit..","service":"user-service","timestamp":"2025-05-23T06:00:46.731Z"}
+{"level":"info","message":"User created successfully: 68300f0f3094db087db6f485","service":"user-service","timestamp":"2025-05-23T06:00:48.583Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:00:48.584Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-23T06:08:19.763Z"}
+{"level":"info","message":"Registration endpoint hit..","service":"user-service","timestamp":"2025-05-23T06:08:19.767Z"}
+{"level":"info","message":"User created successfully: 683010d43094db087db6f48a","service":"user-service","timestamp":"2025-05-23T06:08:21.250Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:08:21.252Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-23T06:10:34.062Z"}
+{"level":"info","message":"Registration endpoint hit..","service":"user-service","timestamp":"2025-05-23T06:10:34.064Z"}
+{"level":"info","message":"User created successfully: 6830115b3094db087db6f48f","service":"user-service","timestamp":"2025-05-23T06:10:37.336Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:10:37.338Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-23T06:16:04.010Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:16:04.015Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-23T06:16:04.016Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-23T06:16:04.028Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:16:04.030Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-23T06:16:04.031Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:20:01.264Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:20:01.267Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-23T06:20:02.253Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:20:11.229Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:20:11.231Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-23T06:20:11.716Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:20:39.699Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:20:39.701Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-23T06:20:40.073Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:22:22.149Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:22:22.152Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-23T06:22:22.645Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:22:32.176Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:22:32.179Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:22:32.840Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:25:27.136Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:25:27.139Z"}
+{"0":"P","1":"a","10":"u","11":"s","12":"t","13":" ","14":"b","15":"e","16":" ","17":"a","18":"t","19":" ","2":"s","20":"l","21":"e","22":"a","23":"s","24":"t","25":" ","26":"6","27":" ","28":"c","29":"h","3":"s","30":"a","31":"r","32":"a","33":"c","34":"t","35":"e","36":"r","37":"s","38":" ","39":"l","4":"w","40":"o","41":"n","42":"g","43":".","5":"o","6":"r","7":"d","8":" ","9":"m","level":"warn","message":"validation error during login","service":"user-service","timestamp":"2025-05-23T06:25:27.207Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:26:12.478Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:26:12.480Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-23T06:26:16.448Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:26:40.647Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:26:40.650Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-23T06:26:42.631Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:26:52.028Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:26:52.031Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:26:53.427Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:27:11.568Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:27:11.573Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-23T06:27:12.745Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-23T06:27:12.791Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:27:12.794Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-23T06:27:12.795Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:27:26.667Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:27:26.668Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-23T06:27:28.550Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:27:55.969Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:27:55.972Z"}
+{"0":"P","1":"a","10":"u","11":"s","12":"t","13":" ","14":"b","15":"e","16":" ","17":"a","18":"t","19":" ","2":"s","20":"l","21":"e","22":"a","23":"s","24":"t","25":" ","26":"6","27":" ","28":"c","29":"h","3":"s","30":"a","31":"r","32":"a","33":"c","34":"t","35":"e","36":"r","37":"s","38":" ","39":"l","4":"w","40":"o","41":"n","42":"g","43":".","5":"o","6":"r","7":"d","8":" ","9":"m","level":"warn","message":"validation error during login","service":"user-service","timestamp":"2025-05-23T06:27:55.974Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:27:59.951Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:27:59.953Z"}
+{"0":"P","1":"a","10":"u","11":"s","12":"t","13":" ","14":"b","15":"e","16":" ","17":"a","18":"t","19":" ","2":"s","20":"l","21":"e","22":"a","23":"s","24":"t","25":" ","26":"6","27":" ","28":"c","29":"h","3":"s","30":"a","31":"r","32":"a","33":"c","34":"t","35":"e","36":"r","37":"s","38":" ","39":"l","4":"w","40":"o","41":"n","42":"g","43":".","5":"o","6":"r","7":"d","8":" ","9":"m","level":"warn","message":"validation error during login","service":"user-service","timestamp":"2025-05-23T06:27:59.955Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:28:30.051Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:28:30.052Z"}
+{"0":"P","1":"a","10":"u","11":"s","12":"t","13":" ","14":"b","15":"e","16":" ","17":"a","18":"t","19":" ","2":"s","20":"l","21":"e","22":"a","23":"s","24":"t","25":" ","26":"6","27":" ","28":"c","29":"h","3":"s","30":"a","31":"r","32":"a","33":"c","34":"t","35":"e","36":"r","37":"s","38":" ","39":"l","4":"w","40":"o","41":"n","42":"g","43":".","5":"o","6":"r","7":"d","8":" ","9":"m","level":"warn","message":"validation error during login","service":"user-service","timestamp":"2025-05-23T06:28:30.053Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:28:43.305Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:28:43.308Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-23T06:28:47.420Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:34:10.428Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:34:10.430Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:34:11.534Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:36:32.247Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:36:32.251Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:36:33.297Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:36:36.970Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:36:37.026Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-23T06:36:37.976Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-23T06:36:38.049Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:36:38.050Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-23T06:36:38.051Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:36:46.417Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:36:46.419Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-23T06:36:47.175Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:39:32.861Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:39:32.863Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:39:33.161Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:39:48.990Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:39:48.992Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-23T06:39:51.000Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-23T06:39:51.034Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:39:51.038Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-23T06:39:51.040Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:40:18.479Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:40:18.481Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:40:19.346Z"}
+{"level":"info","message":" Received PUT request to /api/auth/update-profileImage ","service":"user-service","timestamp":"2025-05-23T06:40:30.729Z"}
+{"level":"info","message":"Hit the authMiddleware..","service":"user-service","timestamp":"2025-05-23T06:40:30.732Z"}
+{"level":"info","message":"Upload photo endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:40:30.754Z"}
+{"level":"info","message":"Uploading file to Cloudinary...","service":"user-service","timestamp":"2025-05-23T06:40:30.755Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:40:53.171Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:40:53.174Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:40:53.549Z"}
+{"level":"info","message":"Updating user 683010d43094db087db6f48a profile image...","service":"user-service","timestamp":"2025-05-23T06:40:56.624Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:48:46.716Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:48:46.718Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-23T06:48:47.504Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-23T06:48:47.555Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:48:47.563Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-23T06:48:47.564Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-23T06:48:51.361Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:48:51.363Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-23T06:48:51.365Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:51:07.671Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:51:07.674Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:51:07.985Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:55:27.438Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:55:27.440Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-23T06:55:28.952Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:55:40.497Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:55:40.500Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:55:40.501Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:56:13.295Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:56:13.301Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:56:13.302Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:56:19.602Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:56:19.604Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:56:19.605Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:56:20.309Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:56:20.311Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:56:20.312Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:56:20.667Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:56:20.669Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:56:20.669Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-23T06:56:20.868Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:56:20.872Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-23T06:56:20.873Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:56:28.726Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:56:28.727Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-23T06:56:29.769Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:56:35.544Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:56:35.547Z"}
+{"level":"warn","message":"Invalid user","service":"user-service","timestamp":"2025-05-23T06:56:37.322Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T06:56:43.385Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T06:56:43.388Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T06:56:44.213Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:56:55.840Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:56:55.843Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:56:55.844Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:57:23.952Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:57:23.954Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:57:23.955Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:57:55.001Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:57:55.005Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:57:55.006Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:58:14.027Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:58:14.029Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:58:14.030Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:58:14.536Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:58:14.538Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:58:14.539Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:58:14.955Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:58:14.958Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:58:14.959Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-23T06:58:15.252Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T06:58:15.254Z"}
+{"level":"warn","message":"Refresh token is missing in logout","service":"user-service","timestamp":"2025-05-23T06:58:15.255Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T07:07:22.427Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T07:07:22.431Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T07:07:22.789Z"}
+{"level":"info","message":" Received PUT request to /api/auth/update-profileImage ","service":"user-service","timestamp":"2025-05-23T07:07:41.290Z"}
+{"level":"info","message":"Hit the authMiddleware..","service":"user-service","timestamp":"2025-05-23T07:07:41.294Z"}
+{"level":"info","message":"Upload photo endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T07:07:41.335Z"}
+{"level":"info","message":"Uploading file to Cloudinary...","service":"user-service","timestamp":"2025-05-23T07:07:41.336Z"}
+{"level":"info","message":"Updating user 6830115b3094db087db6f48f profile image...","service":"user-service","timestamp":"2025-05-23T07:09:32.158Z"}
+{"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-23T07:53:31.901Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-23T07:53:31.922Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-23T07:53:36.061Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T07:54:42.660Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T07:54:42.680Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T07:54:43.017Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T07:59:03.935Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T07:59:03.939Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T07:59:04.211Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-23T09:01:59.904Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-23T09:01:59.907Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T09:02:01.865Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T09:04:16.272Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T09:04:16.276Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T09:04:17.571Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T09:27:39.828Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T09:27:39.832Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T09:27:41.778Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T10:12:37.292Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T10:12:37.306Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T10:12:42.519Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T10:12:54.990Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T10:12:54.996Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T10:12:57.055Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T10:12:57.061Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T10:12:57.080Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T10:12:57.378Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-23T10:13:00.010Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-23T10:13:00.016Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-23T10:13:00.433Z"}
+{"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-23T10:19:37.308Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-23T10:19:37.334Z"}
+{"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-24T09:14:37.419Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-24T09:14:37.432Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-24T09:14:39.105Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-24T09:15:05.581Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-24T09:15:05.779Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-24T09:15:06.106Z"}
+{"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-26T16:39:57.086Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-26T16:39:57.102Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-26T16:39:57.869Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-26T16:40:05.014Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-26T16:40:05.022Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-26T16:40:05.236Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-26T16:40:14.348Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-26T16:40:14.351Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-26T16:40:14.501Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-26T16:40:14.538Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-26T16:40:14.541Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-26T16:40:14.543Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-26T16:40:23.747Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-26T16:40:23.750Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-26T16:40:24.013Z"}
+{"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-28T08:55:05.040Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-28T08:55:05.053Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-28T08:55:07.495Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-28T08:55:26.188Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-28T08:55:26.194Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-28T08:55:26.635Z"}
+{"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-28T08:56:17.752Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-28T08:56:17.766Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-28T08:56:19.063Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-28T08:56:19.066Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-28T08:56:19.590Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-28T08:56:19.707Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-28T08:56:19.724Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-28T08:56:19.726Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-28T08:56:19.727Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-28T08:56:31.207Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-28T08:56:31.209Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-28T08:56:31.462Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-28T08:56:56.708Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-28T08:56:56.710Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-28T08:56:56.865Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-28T08:56:56.888Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-28T08:56:56.890Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-28T08:56:56.891Z"}
+{"level":"info","message":" Received POST request to /api/auth/login ","service":"user-service","timestamp":"2025-05-28T08:57:08.219Z"}
+{"level":"info","message":"Login endpoint is hitting","service":"user-service","timestamp":"2025-05-28T08:57:08.220Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-28T08:57:08.528Z"}
+{"level":"info","message":" Received POST request to /api/auth/logout ","service":"user-service","timestamp":"2025-05-28T08:58:39.859Z"}
+{"level":"info","message":"logoutController endpoint is hitting...","service":"user-service","timestamp":"2025-05-28T08:58:39.862Z"}
+{"level":"info","message":"Refresh token deleted for logged out","service":"user-service","timestamp":"2025-05-28T08:58:39.983Z"}
+{"level":"info","message":" Received POST request to /api/auth/refresh-Token ","service":"user-service","timestamp":"2025-05-28T08:58:40.006Z"}
+{"level":"info","message":"refreshTokenFunc endpoint is hitting...","service":"user-service","timestamp":"2025-05-28T08:58:40.012Z"}
+{"level":"warn","message":"Refresh token is missing","service":"user-service","timestamp":"2025-05-28T08:58:40.013Z"}
+{"level":"info","message":" Received POST request to /api/auth/signup ","service":"user-service","timestamp":"2025-05-28T08:59:31.899Z"}
+{"level":"info","message":"Registration endpoint hit..","service":"user-service","timestamp":"2025-05-28T08:59:31.901Z"}
+{"level":"info","message":"User created successfully: 6836d074e472ca107fbe0ec3","service":"user-service","timestamp":"2025-05-28T08:59:32.236Z"}
+{"level":"info","message":"hit the generateToken function","service":"user-service","timestamp":"2025-05-28T08:59:32.236Z"}
+{"level":"info","message":"Cloudinary Config:","service":"user-service","timestamp":"2025-05-28T09:44:21.621Z"}
+{"level":"info","message":"user-service is running on port: 3001","service":"user-service","timestamp":"2025-05-28T09:44:21.634Z"}
+{"level":"info","message":"mongo db is connected","service":"user-service","timestamp":"2025-05-28T09:44:23.638Z"}
