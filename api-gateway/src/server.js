@@ -55,8 +55,8 @@ app.use((req, res, next) => {
 });
 
 const ratelimiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  limit: 100,
+  windowMs: 5 * 60 * 1000,
+  limit: 150,
   standardHeaders: 'draft-8',
   legacyHeaders: false,
   handler: (req, res) => {
@@ -70,8 +70,6 @@ const ratelimiter = rateLimit({
     sendCommand: (...args) => redisClient.call(...args),
   }),
 });
-
-app.use(ratelimiter);
 
 const proxyOptions = {
   proxyReqPathResolver: (req) => {
@@ -87,7 +85,7 @@ const proxyOptions = {
 };
 
 // User service proxy
-app.use('/v1/auth', proxy(process.env.USER_SERVICE_URL, {
+app.use('/v1/auth',ratelimiter, proxy(process.env.USER_SERVICE_URL, {
   ...proxyOptions,
   proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
     const contentType = srcReq.headers['content-type'];
